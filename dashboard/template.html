@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job radar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#12343B; --muted:#5B6E71; --paper:#EEF3F1; --field:#FFFFFF; --rule:#D3DDD9;
+  --hc:#0F7B6C; --hc-soft:#DDEFEA; --other:#8A9A9D; --other-soft:#E6ECEB;
+  --signal:#E7B321; --signal-soft:#FBF0CC; --warn:#A3314A; --warn-soft:#F6E1E6; --ok:#2F6F3E;
+  --r-s:4px; --r-m:10px;
+  --f: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+}
+*{box-sizing:border-box}
+html{font-size:16px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f);line-height:1.45;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--signal);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+
+/* header + lanes: the one loud element */
+header{background:var(--ink);color:#fff;padding:28px 0 0}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+h1{font-size:1.75rem;line-height:1.15;margin:0;font-weight:700;letter-spacing:-.01em}
+h1 small{display:block;font-size:1rem;font-weight:400;color:#B9CBCD;margin-top:6px;letter-spacing:0}
+.stamp{font-size:.875rem;color:#B9CBCD}
+.lanes{display:grid;grid-template-columns:repeat(var(--days),1fr);gap:10px;margin-top:26px;align-items:end}
+.lane{appearance:none;border:0;background:transparent;padding:0;cursor:pointer;display:flex;flex-direction:column;align-items:stretch;gap:8px;border-radius:var(--r-s)}
+.well{height:150px;background:rgba(255,255,255,.06);border-radius:var(--r-s) var(--r-s) 0 0;display:flex;flex-direction:column-reverse;gap:2px;padding:6px 6px 0;overflow:hidden;transition:background .15s}
+.lane:hover .well{background:rgba(255,255,255,.11)}
+.lane[aria-pressed="true"] .well{background:rgba(231,179,33,.18);box-shadow:inset 0 -3px 0 var(--signal)}
+.band{height:5px;border-radius:1px;flex:0 0 auto;transform-origin:bottom}
+.band.hc{background:#5FD0BA}.band.other{background:#7F9699}.band.new{box-shadow:0 0 0 1.5px var(--signal)}
+.more{font-size:.75rem;color:#B9CBCD;text-align:center;padding:2px 0}
+.lane-label{display:flex;justify-content:space-between;font-size:.8125rem;color:#DCE7E8;padding:0 2px 12px}
+.lane-label b{font-weight:700;color:#fff}
+@media (prefers-reduced-motion:no-preference){
+  .band{animation:grow .5s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--i) * 6ms)}
+  @keyframes grow{from{transform:scaleY(0);opacity:0}to{transform:none;opacity:1}}
+}
+.legend{display:flex;gap:18px;font-size:.8125rem;color:#B9CBCD;padding:0 0 14px;flex-wrap:wrap}
+.key{display:inline-block;width:14px;height:5px;border-radius:1px;vertical-align:middle;margin-right:6px}
+
+/* tabs */
+.tabs{display:flex;gap:4px;border-top:1px solid rgba(255,255,255,.12);overflow-x:auto}
+.tab{white-space:nowrap;appearance:none;background:none;border:0;color:#B9CBCD;padding:12px 14px;cursor:pointer;border-bottom:3px solid transparent;font-size:.9375rem}
+.tab[aria-selected="true"]{color:#fff;border-bottom-color:var(--signal);font-weight:700}
+
+/* layout */
+main.wrap{padding-top:28px;padding-bottom:64px}
+.grid{display:grid;grid-template-columns:260px 1fr;gap:28px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:1fr}.rail{position:static!important}.lanes{gap:5px}.well{height:110px}.lane-label{flex-direction:column;align-items:center;gap:0}}
+
+/* filter rail */
+.rail{position:sticky;top:16px}
+.rail > summary{display:none}
+.rail-body{display:flex;flex-direction:column;gap:20px}
+@media (max-width:860px){.rail{background:var(--field);border:1px solid var(--rule);border-radius:var(--r-m);padding:0 14px}.rail > summary{display:block;cursor:pointer;padding:12px 0;font-weight:700}.rail[open]{padding-bottom:16px}}
+fieldset{border:0;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+legend{font-weight:700;font-size:.9375rem;margin-bottom:6px;padding:0}
+.search{width:100%;padding:10px 12px;border:1px solid var(--rule);border-radius:var(--r-s);background:var(--field)}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);border:1px solid var(--rule);border-radius:var(--r-s);overflow:hidden;background:var(--field)}
+.seg button{border:0;background:none;padding:8px 4px;cursor:pointer;font-size:.875rem}
+.seg button+button{border-left:1px solid var(--rule)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.check{display:flex;align-items:center;gap:10px;font-size:.9375rem;cursor:pointer}
+.check input{width:17px;height:17px;accent-color:var(--hc);margin:0}
+.check .n{margin-left:auto;color:var(--muted);font-size:.8125rem;font-variant-numeric:tabular-nums}
+select{width:100%;padding:8px 10px;border:1px solid var(--rule);border-radius:var(--r-s);background:var(--field)}
+.hint{font-size:.8125rem;color:var(--muted);margin:2px 0 0}
+.linkbtn{appearance:none;background:none;border:0;padding:0;color:var(--hc);text-decoration:underline;cursor:pointer;font-size:.875rem;text-align:left}
+
+/* results */
+.summary{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin:0 0 14px;flex-wrap:wrap}
+.summary p{margin:0;color:var(--muted)}
+.summary strong{color:var(--ink)}
+.day{margin:0 0 26px}
+.day h2{font-size:1.0625rem;margin:0 0 8px;display:flex;gap:10px;align-items:baseline}
+.day h2 span{font-weight:400;color:var(--muted);font-size:.875rem}
+.day h2 span:last-child{margin-left:auto}
+.list{background:var(--field);border:1px solid var(--rule);border-radius:var(--r-m);overflow:hidden}
+.job{display:grid;grid-template-columns:4px 1fr auto;gap:0 16px;padding:14px 16px 14px 0;border-top:1px solid var(--rule)}
+.job:first-child{border-top:0}
+.job .bar{background:var(--other-soft)}
+.job.hc .bar{background:var(--hc)}
+.job.status-hidden{opacity:.55}
+.title{font-weight:700;font-size:1.0313rem;text-decoration:none;line-height:1.3}
+.title:hover{text-decoration:underline}
+.meta{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:4px;font-size:.875rem;color:var(--muted)}
+.meta .co{color:var(--ink)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{font-size:.75rem;padding:2px 8px;border-radius:999px;background:var(--other-soft);white-space:nowrap}
+.chip.role{background:var(--hc-soft);color:#0B5A4F}
+.job:not(.hc) .chip.role{background:var(--other-soft);color:var(--ink)}
+.chip.new{background:var(--signal-soft);color:#6B5000;font-weight:700}
+.chip.nospon{background:var(--warn-soft);color:var(--warn)}
+.chip.spon{background:#DDEEDF;color:var(--ok)}
+.chip.est{background:none;border:1px dashed var(--rule);color:var(--muted)}
+.actions{display:flex;gap:6px;align-items:flex-start}
+.act{appearance:none;border:1px solid var(--rule);background:var(--field);border-radius:var(--r-s);padding:5px 10px;font-size:.8125rem;cursor:pointer}
+.act:hover{border-color:var(--ink)}
+.act[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+@media (max-width:760px){.job{grid-template-columns:4px 1fr}.actions{grid-column:2;margin-top:10px}}
+.empty{background:var(--field);border:1px dashed var(--rule);border-radius:var(--r-m);padding:32px;text-align:center}
+.empty p{margin:0 0 12px}
+.primary{appearance:none;border:0;background:var(--ink);color:#fff;border-radius:var(--r-s);padding:9px 16px;cursor:pointer}
+
+/* tables for other tabs */
+.panel{max-width:900px}
+.panel h2{font-size:1.25rem;margin:0 0 6px}
+.panel > p{color:var(--muted);margin:0 0 18px;max-width:68ch}
+table{width:100%;border-collapse:collapse;background:var(--field);border:1px solid var(--rule);border-radius:var(--r-m);overflow:hidden;font-size:.9375rem}
+th,td{text-align:left;padding:10px 12px;border-top:1px solid var(--rule);vertical-align:top}
+th{border-top:0;font-size:.8125rem;color:var(--muted);font-weight:700;background:#F7FAF9}
+td a{color:var(--hc)}
+.num{font-variant-numeric:tabular-nums;text-align:right}
+.bad{color:var(--warn)}
+code{background:var(--other-soft);padding:1px 5px;border-radius:3px;font-size:.875em}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <h1 id="headline">Job radar<small>Loading postings</small></h1>
+      <div class="stamp" id="stamp"></div>
+    </div>
+    <div class="lanes" id="lanes" role="group" aria-label="Filter by day posted"></div>
+    <div class="legend" id="legend">
+      <span><i class="key" style="background:#5FD0BA"></i>Healthcare &amp; adjacent</span>
+      <span><i class="key" style="background:#7F9699"></i>Other companies</span>
+      <span><i class="key" style="background:transparent;box-shadow:0 0 0 1.5px var(--signal)"></i>New since yesterday's run</span>
+      <span>Select a day to see only that day</span>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button class="tab" role="tab" aria-selected="true" data-tab="listings">Listings</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="uncovered" id="tab-uncovered">Not covered</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="health" id="tab-health">Feed health</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="listings" role="tabpanel">
+    <div class="grid">
+      <details class="rail" id="rail" open aria-label="Filters"><summary id="railsum">Filters</summary><div class="rail-body">
+        <input class="search" id="q" type="search" placeholder="Search title, company, city" aria-label="Search">
+        <fieldset>
+          <legend>Companies</legend>
+          <div class="seg" id="tier">
+            <button data-v="all" aria-pressed="true">All</button>
+            <button data-v="1" aria-pressed="false">Healthcare</button>
+            <button data-v="2" aria-pressed="false">Other</button>
+          </div>
+          <select id="sector" aria-label="Healthcare sector"><option value="">Every sector</option></select>
+        </fieldset>
+        <fieldset id="roles"><legend>Role</legend></fieldset>
+        <fieldset>
+          <legend>Location &amp; visa</legend>
+          <label class="check"><input type="checkbox" id="us"> US locations only</label>
+          <p class="hint">Postings with no clear location stay visible.</p>
+          <label class="check"><input type="checkbox" id="nospon"> Hide "no sponsorship" postings</label>
+          <p class="hint">Flagged from the job description text. Worth a second look before ruling a role out.</p>
+        </fieldset>
+        <fieldset>
+          <legend>Show</legend>
+          <select id="status" aria-label="Status">
+            <option value="open">Not yet acted on</option>
+            <option value="saved">Saved</option>
+            <option value="applied">Applied</option>
+            <option value="hidden">Not interested</option>
+            <option value="any">Everything</option>
+          </select>
+        </fieldset>
+        <button class="linkbtn" id="reset">Clear all filters</button>
+      </div></details>
+      <div>
+        <div class="summary"><p id="count"></p><p id="note"></p></div>
+        <div id="results"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="uncovered" role="tabpanel" hidden>
+    <div class="panel">
+      <h2>Healthcare companies without a job feed</h2>
+      <p>These companies use career sites the radar can't read automatically (often iCIMS, Taleo, SuccessFactors, or a custom site). Each row links to a LinkedIn search limited to the past week. To add a company, paste its careers URL into <code>sources_manual.csv</code>; if it's a Workday, Greenhouse, Lever, Ashby, or SmartRecruiters site it will be picked up on the next discovery run.</p>
+      <input class="search" id="uq" type="search" placeholder="Filter companies" aria-label="Filter companies" style="max-width:320px;margin-bottom:12px">
+      <table><thead><tr><th>Company</th><th>Sector</th><th>Why</th><th>Search</th></tr></thead><tbody id="ubody"></tbody></table>
+    </div>
+  </section>
+
+  <section id="health" role="tabpanel" hidden>
+    <div class="panel">
+      <h2>Feed health</h2>
+      <p id="hsum"></p>
+      <table><thead><tr><th>Company</th><th>Board</th><th class="num">Open postings</th><th class="num">Matches</th><th>Result</th></tr></thead><tbody id="hbody"></tbody></table>
+    </div>
+  </section>
+</main>
+
+<script id="payload" type="application/json">/*__DATA__*/null</script>
+<script>
+(async function(){
+  let D = JSON.parse(document.getElementById('payload').textContent);
+  if (!D) { try { D = await (await fetch('jobs.json', {cache:'no-store'})).json(); } catch(e) {
+    document.getElementById('headline').innerHTML = 'Job radar<small>No data yet. Run the "Daily job radar" workflow once, then reload.</small>'; return; } }
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const M = D.meta, jobs = D.jobs;
+  const genDay = M.generated_at.slice(0,10);
+
+  // --- saved state (browser only; falls back to memory if storage is blocked)
+  const KEY = 'jobradar-status-v1';
+  let store = {};
+  const mem = { get(){ try { return JSON.parse(localStorage.getItem(KEY) || '{}'); } catch(e) { return store; } },
+                set(v){ store = v; try { localStorage.setItem(KEY, JSON.stringify(v)); } catch(e) {} } };
+  let status = mem.get();
+
+  // --- names
+  const KEEP = new Set(['IBM','SAP','KPMG','EY','PWC','BCG','CGI','HCL','NTT','EPAM','ADP','AT&T','CVS','ZS','HCA','NYU','UPMC','IQVIA','GE','BD','MD','UT','UC','UCLA','OSF','VCU','LSU','PPD','CSL','EMD','GSK','BMS','HM','NIH','HHS','II','ST','BIO','IT','US','USA','NY','PC']);
+  const DROP = /\b(INC|INCORPORATED|LLC|LLP|LP|CORP|CORPORATION|CO|COMPANY|LIMITED|LTD)\b\.?/g;
+  const FIX = {ASTRAZENECA:'AstraZeneca',GLAXOSMITHKLINE:'GlaxoSmithKline',MCKESSON:'McKesson',ATHENAHEALTH:'athenahealth',ECLINICALWORKS:'eClinicalWorks',INTERSYSTEMS:'InterSystems',LINKEDIN:'LinkedIn',PAYPAL:'PayPal',SERVICENOW:'ServiceNow',DEXCOM:'Dexcom',MODERNATX:'ModernaTX',HEALTHEDGE:'HealthEdge',CITIUSTECH:'CitiusTech',EVICORE:'eviCore',EHEALTHINSURANCE:'eHealthInsurance',CARESOURCE:'CareSource',BLUECROSS:'BlueCross',BLUESHIELD:'BlueShield'};
+  const nice = n => n.replace(DROP,'').replace(/\s+/g,' ').trim().split(' ')
+      .map(w => FIX[w] || (KEEP.has(w) ? w : w.charAt(0) + w.slice(1).toLowerCase())).join(' ').replace(/ And /g,' and ').replace(/ Of /g,' of ').replace(/ The /g,' the ').replace(/ At /g,' at ').replace(/ For /g,' for ');
+
+  // --- days
+  const days = [];
+  const base = new Date(genDay + 'T12:00:00');
+  for (let i = M.lookback_days - 1; i >= 0; i--) { const d = new Date(base); d.setDate(d.getDate() - i); days.push(d); }
+  const iso = d => d.toISOString().slice(0,10);
+  const dayName = (d, long) => d.toLocaleDateString('en-US', long ? {weekday:'long', month:'short', day:'numeric'} : {weekday:'short'});
+  const rel = n => n === 0 ? 'Today' : n === 1 ? 'Yesterday' : n + ' days ago';
+
+  // --- state
+  const S = { q:'', tier:'all', sector:'', roles:new Set(M.roles), us:M.us_only_default, nospon:false, status:'open', day:null };
+
+  // headline + stamp
+  const start = days[0].toLocaleDateString('en-US', {month:'long', day:'numeric'});
+  $('#headline').innerHTML = `Project, consulting &amp; analyst roles<small>Posted since ${esc(start)} at H-1B sponsoring companies</small>`;
+  $('#stamp').textContent = `Updated ${M.generated_label}`;
+  $('#tab-uncovered').textContent = `Not covered (${D.uncovered.length})`;
+  const failed = D.health.filter(h => !h.ok).length;
+  $('#tab-health').textContent = failed ? `Feed health (${failed} failed)` : 'Feed health';
+
+  // sectors
+  [...new Set(jobs.filter(j => j.tier === 1).map(j => j.sector))].sort().forEach(s => {
+    $('#sector').insertAdjacentHTML('beforeend', `<option>${esc(s)}</option>`); });
+
+  // role checkboxes
+  M.roles.forEach(r => $('#roles').insertAdjacentHTML('beforeend',
+    `<label class="check"><input type="checkbox" value="${esc(r)}" checked> ${esc(r)} <span class="n" data-role="${esc(r)}"></span></label>`));
+
+  const statusOf = id => status[id] || 'open';
+  function passes(j, ignoreDay, ignoreRole){
+    if (S.tier !== 'all' && String(j.tier) !== S.tier) return false;
+    if (S.sector && j.sector !== S.sector) return false;
+    if (!ignoreRole && !S.roles.has(j.role)) return false;
+    if (S.us && j.us === false) return false;
+    if (S.nospon && j.sponsorship === 'no') return false;
+    if (S.status !== 'any' && statusOf(j.id) !== S.status) return false;
+    if (!ignoreDay && S.day !== null && j.posted !== S.day) return false;
+    if (S.q) { const hay = (j.title + ' ' + j.company + ' ' + j.location + ' ' + j.sector).toLowerCase();
+      if (!S.q.split(/\s+/).every(t => hay.includes(t))) return false; }
+    return true;
+  }
+
+  function drawLanes(){
+    const pool = jobs.filter(j => passes(j, true));
+    const cap = 26;
+    $('#lanes').style.setProperty('--days', days.length);
+    $('#lanes').innerHTML = days.map(d => {
+      const k = iso(d), js = pool.filter(j => j.posted === k).sort((a,b) => a.tier - b.tier);
+      let i = 0;
+      const bands = js.slice(0, cap).map(j => `<span class="band ${j.tier === 1 ? 'hc' : 'other'} ${j.first_seen === genDay ? 'new' : ''}" style="--i:${i++}"></span>`).join('');
+      const extra = js.length > cap ? `<span class="more">+${js.length - cap}</span>` : '';
+      return `<button class="lane" aria-pressed="${S.day === k}" data-day="${k}" aria-label="${dayName(d, true)}: ${js.length} postings">
+        <span class="well">${bands}${extra}</span>
+        <span class="lane-label"><span>${k === genDay ? 'Today' : dayName(d)}</span><b>${js.length}</b></span></button>`;
+    }).join('');
+  }
+
+  function row(j){
+    const st = statusOf(j.id);
+    const chips = [`<span class="chip role">${esc(j.role)}</span>`];
+    if (j.first_seen === genDay) chips.unshift('<span class="chip new">New</span>');
+    if (j.sponsorship === 'no') chips.push('<span class="chip nospon" title="The description has wording like \'unable to sponsor\'">Says no sponsorship</span>');
+    if (j.sponsorship === 'yes') chips.push('<span class="chip spon">Mentions sponsorship</span>');
+    if (j.date_estimate) chips.push('<span class="chip est" title="The job board gives an approximate date">Date approximate</span>');
+    const loc = j.location || 'Location not listed';
+    return `<article class="job ${j.tier === 1 ? 'hc' : ''} status-${st}">
+      <span class="bar" aria-hidden="true"></span>
+      <div>
+        <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>
+        <div class="meta"><span class="co">${esc(nice(j.company))}</span><span>${esc(loc)}</span>
+          <span>${j.tier === 1 ? esc(j.sector) : 'Other industry'}</span>
+          <span title="H-1B filings in the source list">${j.h1b_filings.toLocaleString()} H-1B filings</span></div>
+        <div class="chips">${chips.join('')}</div>
+      </div>
+      <div class="actions" role="group" aria-label="Track this posting">
+        <button class="act" data-id="${j.id}" data-s="saved" aria-pressed="${st === 'saved'}">Save</button>
+        <button class="act" data-id="${j.id}" data-s="applied" aria-pressed="${st === 'applied'}">Applied</button>
+        <button class="act" data-id="${j.id}" data-s="hidden" aria-pressed="${st === 'hidden'}">Not for me</button>
+      </div></article>`;
+  }
+
+  function draw(){
+    drawLanes();
+    const list = jobs.filter(j => passes(j));
+    // role counts reflect the other filters
+    M.roles.forEach(r => { const el = document.querySelector(`.n[data-role="${CSS.escape(r)}"]`);
+      if (el) el.textContent = jobs.filter(j => j.role === r && passes(j, false, true)).length; });
+    const hc = list.filter(j => j.tier === 1).length;
+    $('#count').innerHTML = `<strong>${list.length}</strong> postings${S.tier === 'all' ? `, <strong>${hc}</strong> in healthcare` : ''}`;
+    const newCount = list.filter(j => j.first_seen === genDay).length;
+    $('#railsum').textContent = `Filters (${list.length} shown)`;
+    $('#note').textContent = newCount ? `${newCount} new since the last run` : '';
+    if (!list.length) {
+      $('#results').innerHTML = `<div class="empty"><p>No postings match these filters.</p><button class="primary" id="clear2">Clear all filters</button></div>`;
+      $('#clear2').onclick = reset; return;
+    }
+    const groups = {};
+    list.forEach(j => (groups[j.posted] = groups[j.posted] || []).push(j));
+    $('#results').innerHTML = Object.keys(groups).sort().reverse().map(k => {
+      const d = new Date(k + 'T12:00:00'), n = Math.round((base - d) / 864e5);
+      const c = groups[k].length;
+      return `<section class="day"><h2>${rel(n)} <span>${dayName(d, true)}</span><span>${c} ${c === 1 ? 'posting' : 'postings'}</span></h2>
+        <div class="list">${groups[k].map(row).join('')}</div></section>`;
+    }).join('');
+  }
+
+  function reset(){
+    Object.assign(S, { q:'', tier:'all', sector:'', roles:new Set(M.roles), us:M.us_only_default, nospon:false, status:'open', day:null });
+    $('#q').value = ''; $('#sector').value = ''; $('#us').checked = S.us; $('#nospon').checked = false; $('#status').value = 'open';
+    document.querySelectorAll('#roles input').forEach(i => i.checked = true);
+    document.querySelectorAll('#tier button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === 'all'));
+    draw();
+  }
+
+  // events
+  $('#q').addEventListener('input', e => { S.q = e.target.value.trim().toLowerCase(); draw(); });
+  $('#tier').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return;
+    S.tier = b.dataset.v; document.querySelectorAll('#tier button').forEach(x => x.setAttribute('aria-pressed', x === b));
+    $('#sector').disabled = S.tier === '2'; if (S.tier === '2') { S.sector = ''; $('#sector').value = ''; } draw(); });
+  $('#sector').addEventListener('change', e => { S.sector = e.target.value; draw(); });
+  $('#roles').addEventListener('change', e => { e.target.checked ? S.roles.add(e.target.value) : S.roles.delete(e.target.value); draw(); });
+  $('#us').checked = S.us;
+  $('#us').addEventListener('change', e => { S.us = e.target.checked; draw(); });
+  $('#nospon').addEventListener('change', e => { S.nospon = e.target.checked; draw(); });
+  $('#status').addEventListener('change', e => { S.status = e.target.value; draw(); });
+  $('#reset').onclick = reset;
+  $('#lanes').addEventListener('click', e => { const b = e.target.closest('.lane'); if (!b) return;
+    S.day = S.day === b.dataset.day ? null : b.dataset.day; draw(); });
+  $('#results').addEventListener('click', e => { const b = e.target.closest('.act'); if (!b) return;
+    const cur = statusOf(b.dataset.id); status[b.dataset.id] = cur === b.dataset.s ? 'open' : b.dataset.s;
+    if (status[b.dataset.id] === 'open') delete status[b.dataset.id];
+    mem.set(status); draw(); });
+
+  // tabs
+  document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(x => x.setAttribute('aria-selected', x === t));
+    document.querySelectorAll('[role=tabpanel]').forEach(p => p.hidden = p.id !== t.dataset.tab);
+    document.getElementById('lanes').hidden = document.getElementById('legend').hidden = t.dataset.tab !== 'listings';
+  }));
+
+  // not-covered table
+  function drawUncovered(){
+    const q = ($('#uq').value || '').toLowerCase();
+    const rows = D.uncovered.filter(u => !q || (u.company + ' ' + u.sector).toLowerCase().includes(q))
+      .sort((a,b) => b.h1b_filings - a.h1b_filings);
+    $('#ubody').innerHTML = rows.map(u => `<tr><td>${esc(nice(u.company))}</td><td>${esc(u.sector)}</td>
+      <td>${esc(u.status === 'not found' ? 'No readable feed found' : u.status)}</td>
+      <td><a href="${esc(u.search_url)}" target="_blank" rel="noopener">LinkedIn, past week</a>${u.careers_url ? ` <br><a href="${esc(u.careers_url)}" target="_blank" rel="noopener">Careers site</a>` : ''}</td></tr>`).join('')
+      || '<tr><td colspan="4">Every healthcare company in your list has a readable feed.</td></tr>';
+  }
+  $('#uq').addEventListener('input', drawUncovered);
+  drawUncovered();
+
+  // health
+  $('#hsum').textContent = `${M.feeds_checked} feeds checked in ${M.runtime_s}s. ${M.tier1_covered} of ${M.tier1_companies} healthcare companies have a readable feed. `
+    + (failed ? `${failed} failed this run; they're retried tomorrow.` : 'None failed this run.');
+  $('#hbody').innerHTML = D.health.map(h => `<tr><td>${esc(nice(h.company))}</td><td>${esc(h.ats)}</td>
+    <td class="num">${h.ok ? h.postings : ''}</td><td class="num">${h.ok ? h.matches : ''}</td>
+    <td class="${h.ok ? '' : 'bad'}">${h.ok ? 'OK' : esc(h.error)}</td></tr>`).join('');
+
+  if (matchMedia('(max-width:860px)').matches) $('#rail').open = false;
+  draw();
+})();
+</script>
+</body>
+</html>

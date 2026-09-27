@@ -1,0 +1,59 @@
+# Job Radar settings. Edit this file on GitHub; the next run picks up the changes.
+
+timezone: America/New_York      # the daily run and "posted today" use this zone
+run_hour: 7                     # local hour of the daily run (also update the cron lines in .github/workflows/daily.yml)
+lookback_days: 7                # only keep postings from the last N days
+us_only_default: true           # dashboard starts with the "US only" filter on
+
+# Each role family is matched against the job title (case-insensitive regex).
+# Order matters: the first family that matches wins, so the narrow one comes first.
+roles:
+  Associate Project Manager:
+    - '\b(associate|assistant|junior|jr\.?)\s+(project|program)\s+manager\b'
+    - '\bproject management\s+(associate|specialist)\b'
+  Project Manager:
+    - '\b(project|program)\s+manager\b'
+    - '\bproject\s+lead\b'
+  Business Analyst:
+    - '\bbusiness\s+(systems\s+|process\s+)?analyst\b'
+    - '\bbusiness\s+analysis\b'
+  Consultant:
+    - '\bconsultant\b'
+    - '\bconsulting\s+(analyst|associate)\b'
+
+# Titles containing any of these are dropped, even if they match a role above.
+exclude_titles:
+  - '\b(director|vice\s+president|vp|svp|evp|head\s+of|chief)\b'
+  - '\bprincipal\b'
+  - '\b(intern|internship|co-?op|summer\s+associate)\b'
+
+# Server-side search terms for job boards that support search (Workday, SmartRecruiters).
+search_terms:
+  - project manager
+  - program manager
+  - business analyst
+  - consultant
+
+# Phrases in a job description that suggest the employer won't sponsor a visa.
+# Matches are flagged on the dashboard (not hidden) because the wording is often boilerplate.
+no_sponsorship_phrases:
+  - 'unable to (provide |offer )?(visa )?sponsor'
+  - '(not|n.t) (be )?(able|eligible|willing) to (provide |offer )?(visa )?sponsor'
+  - '(will|does|do|can)\s*(not|n.t) (provide |offer )?(visa )?sponsor'
+  - 'no (visa )?sponsorship'
+  - 'sponsorship (is |will )?not (be )?(available|provided|offered|considered)'
+  - 'without (the need for )?(current or future |any )?(visa |employer )?sponsorship'
+  - 'must be (a )?u\.?s\.? citizen'
+  - 'security clearance'
+sponsorship_ok_phrases:
+  - 'visa sponsorship (is )?(available|provided|offered)'
+  - 'will sponsor'
+  - 'h-?1b (sponsorship )?(is )?(available|supported|provided)'
+
+# Which tiers the daily run fetches. Tier 1 = healthcare & adjacent, Tier 2 = everything else.
+tiers: [1, 2]
+
+# Network politeness
+max_workers: 12
+request_timeout: 15
+workday_max_pages: 5            # 20 postings per page, per search term
