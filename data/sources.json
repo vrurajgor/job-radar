@@ -1,0 +1,2936 @@
+{
+ "CITIUSTECH INC": {
+  "rank": 92,
+  "company": "CITIUSTECH INC",
+  "tier": 1,
+  "sector": "Health tech & Health IT",
+  "h1b_filings": "2595",
+  "avg_salary": "97483",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CAREMARK LLC": {
+  "rank": 94,
+  "company": "CAREMARK LLC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "2560",
+  "avg_salary": "131230",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "OPTUM SERVICES INC": {
+  "rank": 109,
+  "company": "OPTUM SERVICES INC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "2278",
+  "avg_salary": "114389",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MAYO CLINIC": {
+  "rank": 112,
+  "company": "MAYO CLINIC",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "2211",
+  "avg_salary": "107440",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "AETNA RESOURCES LLC": {
+  "rank": 115,
+  "company": "AETNA RESOURCES LLC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "2205",
+  "avg_salary": "134359",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ANTHEM INC": {
+  "rank": 121,
+  "company": "ANTHEM INC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "2128",
+  "avg_salary": "100228",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UNIVERSITY OF CALIFORNIA SAN FRANCISCO": {
+  "rank": 122,
+  "company": "UNIVERSITY OF CALIFORNIA SAN FRANCISCO",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "2107",
+  "avg_salary": "101176",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ELEVANCE HEALTH INC": {
+  "rank": 123,
+  "company": "ELEVANCE HEALTH INC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "2093",
+  "avg_salary": "127000",
+  "source": {
+   "ats": "workday",
+   "tenant": "elevancehealth",
+   "wd": "wd1",
+   "site": "ANT"
+  },
+  "status": "from your list",
+  "careers_url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT"
+ },
+ "NATIONAL INSTITUTES OF HEALTH HHS": {
+  "rank": 131,
+  "company": "NATIONAL INSTITUTES OF HEALTH HHS",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "1983",
+  "avg_salary": "99623",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ZS ASSOCIATES INC": {
+  "rank": 140,
+  "company": "ZS ASSOCIATES INC",
+  "tier": 1,
+  "sector": "Healthcare & life-sci consulting",
+  "h1b_filings": "1885",
+  "avg_salary": "156904",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CERNER CORPORATION": {
+  "rank": 141,
+  "company": "CERNER CORPORATION",
+  "tier": 1,
+  "sector": "Health tech & Health IT",
+  "h1b_filings": "1871",
+  "avg_salary": "87506",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI": {
+  "rank": 144,
+  "company": "ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "1845",
+  "avg_salary": "110372",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UT SOUTHWESTERN MEDICAL CENTER": {
+  "rank": 147,
+  "company": "UT SOUTHWESTERN MEDICAL CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "1814",
+  "avg_salary": "85774",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ST JUDE CHILDREN'S RESEARCH HOSPITAL": {
+  "rank": 158,
+  "company": "ST JUDE CHILDREN'S RESEARCH HOSPITAL",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "1730",
+  "avg_salary": "80092",
+  "source": {
+   "ats": "workday",
+   "tenant": "stjude",
+   "wd": "wd1",
+   "site": "stjude"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "MEMORIAL SLOAN KETTERING CANCER CENTER": {
+  "rank": 162,
+  "company": "MEMORIAL SLOAN KETTERING CANCER CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "1705",
+  "avg_salary": "114201",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "AMGEN INC": {
+  "rank": 165,
+  "company": "AMGEN INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "1691",
+  "avg_salary": "129195",
+  "source": {
+   "ats": "workday",
+   "tenant": "amgen",
+   "wd": "wd1",
+   "site": "Careers"
+  },
+  "status": "from your list",
+  "careers_url": "https://amgen.wd1.myworkdayjobs.com/Careers"
+ },
+ "GENERAL HOSPITAL CORPORATION": {
+  "rank": 181,
+  "company": "GENERAL HOSPITAL CORPORATION",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "1586",
+  "avg_salary": "71055",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "IQVIA INC": {
+  "rank": 189,
+  "company": "IQVIA INC",
+  "tier": 1,
+  "sector": "CRO & Life-sci services",
+  "h1b_filings": "1532",
+  "avg_salary": "124693",
+  "source": {
+   "ats": "workday",
+   "tenant": "iqvia",
+   "wd": "wd1",
+   "site": "IQVIA"
+  },
+  "status": "from your list",
+  "careers_url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA"
+ },
+ "MEDTRONIC INC": {
+  "rank": 202,
+  "company": "MEDTRONIC INC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "1468",
+  "avg_salary": "107454",
+  "source": {
+   "ats": "workday",
+   "tenant": "medtronic",
+   "wd": "wd1",
+   "site": "MedtronicCareers"
+  },
+  "status": "from your list",
+  "careers_url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers"
+ },
+ "INTUITIVE SURGICAL OPERATIONS INC": {
+  "rank": 212,
+  "company": "INTUITIVE SURGICAL OPERATIONS INC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "1436",
+  "avg_salary": "143397",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "THE UNIVERSITY OF TEXAS MD ANDERSON CANCER CENTER": {
+  "rank": 216,
+  "company": "THE UNIVERSITY OF TEXAS MD ANDERSON CANCER CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "1420",
+  "avg_salary": "91589",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "GILEAD SCIENCES INC": {
+  "rank": 217,
+  "company": "GILEAD SCIENCES INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "1416",
+  "avg_salary": "134368",
+  "source": {
+   "ats": "workday",
+   "tenant": "gilead",
+   "wd": "wd1",
+   "site": "gileadcareers"
+  },
+  "status": "from your list",
+  "careers_url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers"
+ },
+ "HUMANA INC": {
+  "rank": 219,
+  "company": "HUMANA INC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "1409",
+  "avg_salary": "131786",
+  "source": {
+   "ats": "workday",
+   "tenant": "humana",
+   "wd": "wd5",
+   "site": "Humana_External_Career_Site"
+  },
+  "status": "from your list",
+  "careers_url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site"
+ },
+ "BAYLOR COLLEGE OF MEDICINE": {
+  "rank": 224,
+  "company": "BAYLOR COLLEGE OF MEDICINE",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "1382",
+  "avg_salary": "84294",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CVS PHARMACY INC": {
+  "rank": 228,
+  "company": "CVS PHARMACY INC",
+  "tier": 1,
+  "sector": "Pharmacy & Distribution",
+  "h1b_filings": "1366",
+  "avg_salary": "138915",
+  "source": {
+   "ats": "workday",
+   "tenant": "cvshealth",
+   "wd": "wd1",
+   "site": "CVS_Health_Careers"
+  },
+  "status": "from your list",
+  "careers_url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers"
+ },
+ "BRISTOL-MYERS SQUIBB COMPANY": {
+  "rank": 232,
+  "company": "BRISTOL-MYERS SQUIBB COMPANY",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "1343",
+  "avg_salary": "146543",
+  "source": {
+   "ats": "workday",
+   "tenant": "bristolmyerssquibb",
+   "wd": "wd5",
+   "site": "BMS"
+  },
+  "status": "from your list",
+  "careers_url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS"
+ },
+ "ELI LILLY AND COMPANY": {
+  "rank": 254,
+  "company": "ELI LILLY AND COMPANY",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "1262",
+  "avg_salary": "131756",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "NYU GROSSMAN SCHOOL OF MEDICINE": {
+  "rank": 263,
+  "company": "NYU GROSSMAN SCHOOL OF MEDICINE",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "1193",
+  "avg_salary": "106041",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "BRIGHAM AND WOMEN'S HOSPITAL": {
+  "rank": 265,
+  "company": "BRIGHAM AND WOMEN'S HOSPITAL",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "1182",
+  "avg_salary": "77402",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "WEILL CORNELL MEDICAL COLLEGE": {
+  "rank": 274,
+  "company": "WEILL CORNELL MEDICAL COLLEGE",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "1146",
+  "avg_salary": "90664",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ABBVIE INC": {
+  "rank": 290,
+  "company": "ABBVIE INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "1100",
+  "avg_salary": "136086",
+  "source": {
+   "ats": "smartrecruiters",
+   "slug": "abbvie"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "CIGNA-EVERNORTH SERVICES INC": {
+  "rank": 291,
+  "company": "CIGNA-EVERNORTH SERVICES INC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "1099",
+  "avg_salary": "139411",
+  "source": {
+   "ats": "workday",
+   "tenant": "cigna",
+   "wd": "wd5",
+   "site": "cignacareers"
+  },
+  "status": "from your list",
+  "careers_url": "https://cigna.wd5.myworkdayjobs.com/cignacareers"
+ },
+ "CHILDREN'S HOSPITAL CORPORATION": {
+  "rank": 311,
+  "company": "CHILDREN'S HOSPITAL CORPORATION",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "1045",
+  "avg_salary": "83004",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "DANA-FARBER CANCER INSTITUTE": {
+  "rank": 330,
+  "company": "DANA-FARBER CANCER INSTITUTE",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "993",
+  "avg_salary": "82360",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "AMGEN INCORPORATED": {
+  "rank": 334,
+  "company": "AMGEN INCORPORATED",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "975",
+  "avg_salary": "122934",
+  "source": {
+   "ats": "workday",
+   "tenant": "amgen",
+   "wd": "wd1",
+   "site": "Careers"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "ILLUMINA INC": {
+  "rank": 336,
+  "company": "ILLUMINA INC",
+  "tier": 1,
+  "sector": "Life-sci tools & Diagnostics",
+  "h1b_filings": "972",
+  "avg_salary": "121707",
+  "source": {
+   "ats": "workday",
+   "tenant": "illumina",
+   "wd": "wd1",
+   "site": "illumina-careers"
+  },
+  "status": "from your list",
+  "careers_url": "https://illumina.wd1.myworkdayjobs.com/illumina-careers"
+ },
+ "ECLINICALWORKS LLC": {
+  "rank": 340,
+  "company": "ECLINICALWORKS LLC",
+  "tier": 1,
+  "sector": "Health tech & Health IT",
+  "h1b_filings": "959",
+  "avg_salary": "107973",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "GENENTECH INC": {
+  "rank": 353,
+  "company": "GENENTECH INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "926",
+  "avg_salary": "132781",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "THE CHILDREN'S HOSPITAL OF PHILADELPHIA": {
+  "rank": 362,
+  "company": "THE CHILDREN'S HOSPITAL OF PHILADELPHIA",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "904",
+  "avg_salary": "68191",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "THERMO FISHER SCIENTIFIC INC": {
+  "rank": 363,
+  "company": "THERMO FISHER SCIENTIFIC INC",
+  "tier": 1,
+  "sector": "Life-sci tools & Diagnostics",
+  "h1b_filings": "904",
+  "avg_salary": "113396",
+  "source": {
+   "ats": "workday",
+   "tenant": "thermofisher",
+   "wd": "wd5",
+   "site": "ThermoFisherCareers"
+  },
+  "status": "from your list",
+  "careers_url": "https://thermofisher.wd5.myworkdayjobs.com/ThermoFisherCareers"
+ },
+ "AXTRIA INC": {
+  "rank": 382,
+  "company": "AXTRIA INC",
+  "tier": 1,
+  "sector": "Healthcare & life-sci consulting",
+  "h1b_filings": "869",
+  "avg_salary": "121660",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ASTRAZENECA PHARMACEUTICALS LP": {
+  "rank": 385,
+  "company": "ASTRAZENECA PHARMACEUTICALS LP",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "866",
+  "avg_salary": "150046",
+  "source": {
+   "ats": "workday",
+   "tenant": "astrazeneca",
+   "wd": "wd3",
+   "site": "Careers"
+  },
+  "status": "from your list",
+  "careers_url": "https://astrazeneca.wd3.myworkdayjobs.com/Careers"
+ },
+ "MEDLINE INDUSTRIES LP": {
+  "rank": 386,
+  "company": "MEDLINE INDUSTRIES LP",
+  "tier": 1,
+  "sector": "Pharmacy & Distribution",
+  "h1b_filings": "863",
+  "avg_salary": "128553",
+  "source": {
+   "ats": "workday",
+   "tenant": "medline",
+   "wd": "wd5",
+   "site": "medline"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "HOWARD HUGHES MEDICAL INSTITUTE": {
+  "rank": 388,
+  "company": "HOWARD HUGHES MEDICAL INSTITUTE",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "860",
+  "avg_salary": "77894",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "VERTEX PHARMACEUTICALS INCORPORATED": {
+  "rank": 395,
+  "company": "VERTEX PHARMACEUTICALS INCORPORATED",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "851",
+  "avg_salary": "121109",
+  "source": {
+   "ats": "workday",
+   "tenant": "vrtx",
+   "wd": "wd501",
+   "site": "vertex_careers"
+  },
+  "status": "from your list",
+  "careers_url": "https://vrtx.wd501.myworkdayjobs.com/vertex_careers"
+ },
+ "HENRY FORD HEALTH SYSTEM": {
+  "rank": 401,
+  "company": "HENRY FORD HEALTH SYSTEM",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "838",
+  "avg_salary": "128418",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MCKESSON CORPORATION": {
+  "rank": 410,
+  "company": "MCKESSON CORPORATION",
+  "tier": 1,
+  "sector": "Pharmacy & Distribution",
+  "h1b_filings": "813",
+  "avg_salary": "135612",
+  "source": {
+   "ats": "workday",
+   "tenant": "mckesson",
+   "wd": "wd3",
+   "site": "External_Careers"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "HEALTH CARE SERVICE CORPORATION": {
+  "rank": 411,
+  "company": "HEALTH CARE SERVICE CORPORATION",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "811",
+  "avg_salary": "112414",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "REGENERON PHARMACEUTICALS INC": {
+  "rank": 413,
+  "company": "REGENERON PHARMACEUTICALS INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "804",
+  "avg_salary": "143434",
+  "source": {
+   "ats": "workday",
+   "tenant": "regeneron",
+   "wd": "wd1",
+   "site": "Careers"
+  },
+  "status": "from your list",
+  "careers_url": "https://regeneron.wd1.myworkdayjobs.com/Careers"
+ },
+ "THE DEVEREUX FOUNDATION": {
+  "rank": 417,
+  "company": "THE DEVEREUX FOUNDATION",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "793",
+  "avg_salary": "41810",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "THE UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER AT HOUSTON": {
+  "rank": 423,
+  "company": "THE UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER AT HOUSTON",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "784",
+  "avg_salary": "120193",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MONTEFIORE MEDICAL CENTER": {
+  "rank": 424,
+  "company": "MONTEFIORE MEDICAL CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "783",
+  "avg_salary": "138425",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "NORTHWELL HEALTH": {
+  "rank": 427,
+  "company": "NORTHWELL HEALTH",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "772",
+  "avg_salary": "147345",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "PPD DEVELOPMENT LP": {
+  "rank": 428,
+  "company": "PPD DEVELOPMENT LP",
+  "tier": 1,
+  "sector": "CRO & Life-sci services",
+  "h1b_filings": "771",
+  "avg_salary": "99993",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "OREGON HEALTH & SCIENCE UNIVERSITY": {
+  "rank": 431,
+  "company": "OREGON HEALTH & SCIENCE UNIVERSITY",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "760",
+  "avg_salary": "115056",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CINCINNATI CHILDREN'S HOSPITAL MEDICAL CENTER": {
+  "rank": 444,
+  "company": "CINCINNATI CHILDREN'S HOSPITAL MEDICAL CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "748",
+  "avg_salary": "95459",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CARDINAL HEALTH": {
+  "rank": 447,
+  "company": "CARDINAL HEALTH",
+  "tier": 1,
+  "sector": "Pharmacy & Distribution",
+  "h1b_filings": "744",
+  "avg_salary": "107908",
+  "source": {
+   "ats": "workday",
+   "tenant": "cardinalhealth",
+   "wd": "wd1",
+   "site": "EXT"
+  },
+  "status": "from your list",
+  "careers_url": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT"
+ },
+ "CENTENE MANAGEMENT COMPANY LLC": {
+  "rank": 449,
+  "company": "CENTENE MANAGEMENT COMPANY LLC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "737",
+  "avg_salary": "125197",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ZIMMER INC": {
+  "rank": 451,
+  "company": "ZIMMER INC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "737",
+  "avg_salary": "96128",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "EVERNORTH ENTERPRISE SERVICES INC": {
+  "rank": 455,
+  "company": "EVERNORTH ENTERPRISE SERVICES INC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "730",
+  "avg_salary": "125007",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UNIVERSITY OF ARKANSAS FOR MEDICAL SCIENCES": {
+  "rank": 456,
+  "company": "UNIVERSITY OF ARKANSAS FOR MEDICAL SCIENCES",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "730",
+  "avg_salary": "158661",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "TELADOC HEALTH INC": {
+  "rank": 459,
+  "company": "TELADOC HEALTH INC",
+  "tier": 1,
+  "sector": "Health tech & Health IT",
+  "h1b_filings": "727",
+  "avg_salary": "124801",
+  "source": {
+   "ats": "smartrecruiters",
+   "slug": "teladochealth"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "BECTON DICKINSON AND COMPANY": {
+  "rank": 460,
+  "company": "BECTON DICKINSON AND COMPANY",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "725",
+  "avg_salary": "123311",
+  "source": {
+   "ats": "workday",
+   "tenant": "bdx",
+   "wd": "wd1",
+   "site": "EXTERNAL_CAREER_SITE_USA"
+  },
+  "status": "from your list",
+  "careers_url": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA"
+ },
+ "TAKEDA DEVELOPMENT CENTER AMERICAS INC": {
+  "rank": 467,
+  "company": "TAKEDA DEVELOPMENT CENTER AMERICAS INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "719",
+  "avg_salary": "146680",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "BOSTON SCIENTIFIC CORPORATION": {
+  "rank": 483,
+  "company": "BOSTON SCIENTIFIC CORPORATION",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "704",
+  "avg_salary": "111967",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "COVIDIEN LP": {
+  "rank": 519,
+  "company": "COVIDIEN LP",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "653",
+  "avg_salary": "101657",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "COTIVITI INC": {
+  "rank": 547,
+  "company": "COTIVITI INC",
+  "tier": 1,
+  "sector": "Health tech & Health IT",
+  "h1b_filings": "626",
+  "avg_salary": "109083",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "BAYER US LLC": {
+  "rank": 550,
+  "company": "BAYER US LLC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "622",
+  "avg_salary": "141449",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "BIOGEN INC": {
+  "rank": 556,
+  "company": "BIOGEN INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "617",
+  "avg_salary": "119978",
+  "source": {
+   "ats": "workday",
+   "tenant": "biibhr",
+   "wd": "wd3",
+   "site": "external"
+  },
+  "status": "from your list",
+  "careers_url": "https://biibhr.wd3.myworkdayjobs.com/external"
+ },
+ "CEPHEID": {
+  "rank": 559,
+  "company": "CEPHEID",
+  "tier": 1,
+  "sector": "Life-sci tools & Diagnostics",
+  "h1b_filings": "613",
+  "avg_salary": "136802",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER AT SAN ANTONIO": {
+  "rank": 564,
+  "company": "UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER AT SAN ANTONIO",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "610",
+  "avg_salary": "103841",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UNIVERSITY OF PITTSBURGH PHYSICIANS": {
+  "rank": 569,
+  "company": "UNIVERSITY OF PITTSBURGH PHYSICIANS",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "604",
+  "avg_salary": "248719",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "NOVARTIS PHARMACEUTICALS CORPORATION": {
+  "rank": 571,
+  "company": "NOVARTIS PHARMACEUTICALS CORPORATION",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "603",
+  "avg_salary": "129938",
+  "source": {
+   "ats": "workday",
+   "tenant": "novartis",
+   "wd": "wd3",
+   "site": "Novartis_Careers"
+  },
+  "status": "from your list",
+  "careers_url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+ },
+ "HM HEALTH SOLUTIONS INC": {
+  "rank": 576,
+  "company": "HM HEALTH SOLUTIONS INC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "599",
+  "avg_salary": "108792",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UNIVERSITY OF MISSISSIPPI MEDICAL CENTER": {
+  "rank": 613,
+  "company": "UNIVERSITY OF MISSISSIPPI MEDICAL CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "570",
+  "avg_salary": "195680",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "VANDERBILT UNIVERSITY MEDICAL CENTER": {
+  "rank": 618,
+  "company": "VANDERBILT UNIVERSITY MEDICAL CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "568",
+  "avg_salary": "100669",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "IQVIA RDS INC": {
+  "rank": 619,
+  "company": "IQVIA RDS INC",
+  "tier": 1,
+  "sector": "CRO & Life-sci services",
+  "h1b_filings": "567",
+  "avg_salary": "125844",
+  "source": {
+   "ats": "workday",
+   "tenant": "iqvia",
+   "wd": "wd1",
+   "site": "iqvia"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "HCA MANAGEMENT SERVICES LP": {
+  "rank": 624,
+  "company": "HCA MANAGEMENT SERVICES LP",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "566",
+  "avg_salary": "102307",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CEDARS-SINAI MEDICAL CENTER": {
+  "rank": 625,
+  "company": "CEDARS-SINAI MEDICAL CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "565",
+  "avg_salary": "83698",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ATHENAHEALTH INC": {
+  "rank": 628,
+  "company": "ATHENAHEALTH INC",
+  "tier": 1,
+  "sector": "Health tech & Health IT",
+  "h1b_filings": "561",
+  "avg_salary": "134309",
+  "source": {
+   "ats": "workday",
+   "tenant": "athenahealth",
+   "wd": "wd1",
+   "site": "External"
+  },
+  "status": "from your list",
+  "careers_url": "https://athenahealth.wd1.myworkdayjobs.com/External"
+ },
+ "ZOETIS INC": {
+  "rank": 640,
+  "company": "ZOETIS INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "550",
+  "avg_salary": "112490",
+  "source": {
+   "ats": "workday",
+   "tenant": "zoetis",
+   "wd": "wd5",
+   "site": "zoetis"
+  },
+  "status": "from your list",
+  "careers_url": "https://zoetis.wd5.myworkdayjobs.com/zoetis"
+ },
+ "NOVARTIS INSTITUTES FOR BIOMEDICAL RESEARCH INC": {
+  "rank": 643,
+  "company": "NOVARTIS INSTITUTES FOR BIOMEDICAL RESEARCH INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "548",
+  "avg_salary": "97516",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CLEVELAND CLINIC FOUNDATION": {
+  "rank": 662,
+  "company": "CLEVELAND CLINIC FOUNDATION",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "529",
+  "avg_salary": "185080",
+  "source": {
+   "ats": "smartrecruiters",
+   "slug": "clevelandclinicfoundation"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "THE BROAD INSTITUTE INC": {
+  "rank": 669,
+  "company": "THE BROAD INSTITUTE INC",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "524",
+  "avg_salary": "94330",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MODERNATX INC": {
+  "rank": 671,
+  "company": "MODERNATX INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "522",
+  "avg_salary": "124772",
+  "source": {
+   "ats": "workday",
+   "tenant": "modernatx",
+   "wd": "wd1",
+   "site": "M_tx"
+  },
+  "status": "from your list",
+  "careers_url": "https://modernatx.wd1.myworkdayjobs.com/M_tx"
+ },
+ "RUSH UNIVERSITY MEDICAL CENTER": {
+  "rank": 688,
+  "company": "RUSH UNIVERSITY MEDICAL CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "515",
+  "avg_salary": "104990",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UNIVERSITY OF MASSACHUSETTS CHAN MEDICAL SCHOOL": {
+  "rank": 692,
+  "company": "UNIVERSITY OF MASSACHUSETTS CHAN MEDICAL SCHOOL",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "514",
+  "avg_salary": "78304",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ZIFO TECHNOLOGIES INC": {
+  "rank": 704,
+  "company": "ZIFO TECHNOLOGIES INC",
+  "tier": 1,
+  "sector": "CRO & Life-sci services",
+  "h1b_filings": "506",
+  "avg_salary": "89585",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MEDICAL COLLEGE OF WISCONSIN INC": {
+  "rank": 717,
+  "company": "MEDICAL COLLEGE OF WISCONSIN INC",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "499",
+  "avg_salary": "159735",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ADVENTIST HEALTH SYSTEM/SUNBELT INC": {
+  "rank": 723,
+  "company": "ADVENTIST HEALTH SYSTEM/SUNBELT INC",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "494",
+  "avg_salary": "75443",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MERCK SHARP & DOHME LLC": {
+  "rank": 730,
+  "company": "MERCK SHARP & DOHME LLC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "492",
+  "avg_salary": "122935",
+  "source": {
+   "ats": "workday",
+   "tenant": "msd",
+   "wd": "wd5",
+   "site": "SearchJobs"
+  },
+  "status": "from your list",
+  "careers_url": "https://msd.wd5.myworkdayjobs.com/SearchJobs"
+ },
+ "SIEMENS MEDICAL SOLUTIONS USA INC": {
+  "rank": 735,
+  "company": "SIEMENS MEDICAL SOLUTIONS USA INC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "487",
+  "avg_salary": "131849",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "STRYKER CORPORATION": {
+  "rank": 742,
+  "company": "STRYKER CORPORATION",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "482",
+  "avg_salary": "119771",
+  "source": {
+   "ats": "workday",
+   "tenant": "stryker",
+   "wd": "wd1",
+   "site": "StrykerCareers"
+  },
+  "status": "from your list",
+  "careers_url": "https://stryker.wd1.myworkdayjobs.com/StrykerCareers"
+ },
+ "UNIVERSITY OF OKLAHOMA HEALTH SCIENCES CENTER": {
+  "rank": 747,
+  "company": "UNIVERSITY OF OKLAHOMA HEALTH SCIENCES CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "481",
+  "avg_salary": "113690",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UPMC MEDICAL EDUCATION": {
+  "rank": 753,
+  "company": "UPMC MEDICAL EDUCATION",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "477",
+  "avg_salary": "69623",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "VERILY LIFE SCIENCES LLC": {
+  "rank": 768,
+  "company": "VERILY LIFE SCIENCES LLC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "468",
+  "avg_salary": "156396",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "STANFORD HEALTH CARE": {
+  "rank": 776,
+  "company": "STANFORD HEALTH CARE",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "463",
+  "avg_salary": "120581",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UNIVERSITY OF ALABAMA HEALTH SERVICES FOUNDATION PC": {
+  "rank": 792,
+  "company": "UNIVERSITY OF ALABAMA HEALTH SERVICES FOUNDATION PC",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "456",
+  "avg_salary": "228820",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "LABORATORY CORPORATION OF AMERICA HOLDINGS": {
+  "rank": 803,
+  "company": "LABORATORY CORPORATION OF AMERICA HOLDINGS",
+  "tier": 1,
+  "sector": "Life-sci tools & Diagnostics",
+  "h1b_filings": "448",
+  "avg_salary": "124331",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "THE SCRIPPS RESEARCH INSTITUTE": {
+  "rank": 810,
+  "company": "THE SCRIPPS RESEARCH INSTITUTE",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "446",
+  "avg_salary": "72294",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "DAVITA INC": {
+  "rank": 814,
+  "company": "DAVITA INC",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "444",
+  "avg_salary": "107750",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ABBOTT LABORATORIES": {
+  "rank": 816,
+  "company": "ABBOTT LABORATORIES",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "441",
+  "avg_salary": "117498",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UNIVERSITY OF NEBRASKA MEDICAL CENTER": {
+  "rank": 831,
+  "company": "UNIVERSITY OF NEBRASKA MEDICAL CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "431",
+  "avg_salary": "66935",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MOUNT SINAI HOSPITAL": {
+  "rank": 839,
+  "company": "MOUNT SINAI HOSPITAL",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "428",
+  "avg_salary": "114283",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CLEVELAND CLINIC": {
+  "rank": 844,
+  "company": "CLEVELAND CLINIC",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "427",
+  "avg_salary": "210031",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MASS GENERAL BRIGHAM INCORPORATED": {
+  "rank": 849,
+  "company": "MASS GENERAL BRIGHAM INCORPORATED",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "426",
+  "avg_salary": "80118",
+  "source": {
+   "ats": "workday",
+   "tenant": "massgeneralbrigham",
+   "wd": "wd1",
+   "site": "MGBExternal"
+  },
+  "status": "from your list",
+  "careers_url": "https://massgeneralbrigham.wd1.myworkdayjobs.com/MGBExternal"
+ },
+ "SANOFI US SERVICES INC": {
+  "rank": 853,
+  "company": "SANOFI US SERVICES INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "425",
+  "avg_salary": "120866",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "PFIZER INC": {
+  "rank": 858,
+  "company": "PFIZER INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "422",
+  "avg_salary": "104652",
+  "source": {
+   "ats": "workday",
+   "tenant": "pfizer",
+   "wd": "wd1",
+   "site": "PfizerCareers"
+  },
+  "status": "from your list",
+  "careers_url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+ },
+ "THE METHODIST HOSPITAL RESEARCH INSTITUTE": {
+  "rank": 865,
+  "company": "THE METHODIST HOSPITAL RESEARCH INSTITUTE",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "418",
+  "avg_salary": "70259",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "EDIFECS INC": {
+  "rank": 871,
+  "company": "EDIFECS INC",
+  "tier": 1,
+  "sector": "Health tech & Health IT",
+  "h1b_filings": "416",
+  "avg_salary": "121742",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MEDIDATA SOLUTIONS INC": {
+  "rank": 889,
+  "company": "MEDIDATA SOLUTIONS INC",
+  "tier": 1,
+  "sector": "CRO & Life-sci services",
+  "h1b_filings": "410",
+  "avg_salary": "143931",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ST JUDE MEDICAL CARDIOLOGY DIVISION INC": {
+  "rank": 893,
+  "company": "ST JUDE MEDICAL CARDIOLOGY DIVISION INC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "408",
+  "avg_salary": "118824",
+  "source": {
+   "ats": "workday",
+   "tenant": "stjude",
+   "wd": "wd1",
+   "site": "stjude"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "CIGNA HEALTH AND LIFE INSURANCE COMPANY": {
+  "rank": 899,
+  "company": "CIGNA HEALTH AND LIFE INSURANCE COMPANY",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "404",
+  "avg_salary": "128960",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "VARIAN MEDICAL SYSTEMS INC": {
+  "rank": 903,
+  "company": "VARIAN MEDICAL SYSTEMS INC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "402",
+  "avg_salary": "135677",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "SMITH & NEPHEW INC": {
+  "rank": 908,
+  "company": "SMITH & NEPHEW INC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "399",
+  "avg_salary": "113319",
+  "source": {
+   "ats": "workday",
+   "tenant": "smithnephew",
+   "wd": "wd5",
+   "site": "External"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "CVS SHARED SERVICES RESOURCES LLC": {
+  "rank": 909,
+  "company": "CVS SHARED SERVICES RESOURCES LLC",
+  "tier": 1,
+  "sector": "Pharmacy & Distribution",
+  "h1b_filings": "399",
+  "avg_salary": "140454",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "PRISTINE REHAB CARE LLC": {
+  "rank": 910,
+  "company": "PRISTINE REHAB CARE LLC",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "399",
+  "avg_salary": "74364",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MEDICAL UNIVERSITY OF SOUTH CAROLINA AND AFFILIATES": {
+  "rank": 916,
+  "company": "MEDICAL UNIVERSITY OF SOUTH CAROLINA AND AFFILIATES",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "396",
+  "avg_salary": "216483",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CHANGE HEALTHCARE TECHNOLOGIES LLC": {
+  "rank": 924,
+  "company": "CHANGE HEALTHCARE TECHNOLOGIES LLC",
+  "tier": 1,
+  "sector": "Health tech & Health IT",
+  "h1b_filings": "392",
+  "avg_salary": "117397",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "VEEVA SYSTEMS INC": {
+  "rank": 931,
+  "company": "VEEVA SYSTEMS INC",
+  "tier": 1,
+  "sector": "CRO & Life-sci services",
+  "h1b_filings": "391",
+  "avg_salary": "146778",
+  "source": {
+   "ats": "lever",
+   "slug": "veeva"
+  },
+  "status": "from your list",
+  "careers_url": "https://jobs.lever.co/veeva"
+ },
+ "GAINWELL TECHNOLOGIES LLC": {
+  "rank": 932,
+  "company": "GAINWELL TECHNOLOGIES LLC",
+  "tier": 1,
+  "sector": "Health tech & Health IT",
+  "h1b_filings": "391",
+  "avg_salary": "106057",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "BETH ISRAEL DEACONESS MEDICAL CENTER INC": {
+  "rank": 933,
+  "company": "BETH ISRAEL DEACONESS MEDICAL CENTER INC",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "390",
+  "avg_salary": "79613",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "FOOD AND DRUG ADMINISTRATION": {
+  "rank": 938,
+  "company": "FOOD AND DRUG ADMINISTRATION",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "389",
+  "avg_salary": "112817",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "EDWARDS LIFESCIENCES LLC": {
+  "rank": 943,
+  "company": "EDWARDS LIFESCIENCES LLC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "388",
+  "avg_salary": "130492",
+  "source": {
+   "ats": "workday",
+   "tenant": "edwards",
+   "wd": "wd5",
+   "site": "EdwardsCareers"
+  },
+  "status": "from your list",
+  "careers_url": "https://edwards.wd5.myworkdayjobs.com/EdwardsCareers"
+ },
+ "CATALENT PHARMA SOLUTIONS": {
+  "rank": 965,
+  "company": "CATALENT PHARMA SOLUTIONS",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "381",
+  "avg_salary": "100283",
+  "source": {
+   "ats": "workday",
+   "tenant": "catalent",
+   "wd": "wd1",
+   "site": "External"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "BECKMAN RESEARCH INSTITUTE OF THE CITY OF HOPE": {
+  "rank": 968,
+  "company": "BECKMAN RESEARCH INSTITUTE OF THE CITY OF HOPE",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "377",
+  "avg_salary": "76703",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "GLAXOSMITHKLINE LLC": {
+  "rank": 969,
+  "company": "GLAXOSMITHKLINE LLC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "377",
+  "avg_salary": "121620",
+  "source": {
+   "ats": "workday",
+   "tenant": "gsk",
+   "wd": "wd5",
+   "site": "GSKCareers"
+  },
+  "status": "from your list",
+  "careers_url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers"
+ },
+ "NATERA INC": {
+  "rank": 977,
+  "company": "NATERA INC",
+  "tier": 1,
+  "sector": "Life-sci tools & Diagnostics",
+  "h1b_filings": "374",
+  "avg_salary": "131816",
+  "source": {
+   "ats": "greenhouse",
+   "slug": "natera",
+   "board_name": "Natera"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "THE UNIVERSITY OF TENNESSEE HEALTH SCIENCE CENTER": {
+  "rank": 979,
+  "company": "THE UNIVERSITY OF TENNESSEE HEALTH SCIENCE CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "372",
+  "avg_salary": "67446",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UNIVERSITY OF TEXAS MEDICAL BRANCH": {
+  "rank": 994,
+  "company": "UNIVERSITY OF TEXAS MEDICAL BRANCH",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "364",
+  "avg_salary": "118282",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "AGILENT TECHNOLOGIES INC": {
+  "rank": 1000,
+  "company": "AGILENT TECHNOLOGIES INC",
+  "tier": 1,
+  "sector": "Life-sci tools & Diagnostics",
+  "h1b_filings": "362",
+  "avg_salary": "133983",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ALCON RESEARCH LLC": {
+  "rank": 1003,
+  "company": "ALCON RESEARCH LLC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "361",
+  "avg_salary": "98928",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "BLUE CROSS BLUE SHIELD OF MICHIGAN": {
+  "rank": 1009,
+  "company": "BLUE CROSS BLUE SHIELD OF MICHIGAN",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "358",
+  "avg_salary": "105224",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "FRED HUTCHINSON CANCER CENTER": {
+  "rank": 1011,
+  "company": "FRED HUTCHINSON CANCER CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "358",
+  "avg_salary": "98015",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ADVENTIST HEALTH SYSTEM SUNBELT HEALTHCARE CORP": {
+  "rank": 1012,
+  "company": "ADVENTIST HEALTH SYSTEM SUNBELT HEALTHCARE CORP",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "358",
+  "avg_salary": "114580",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "DEXCOM INC": {
+  "rank": 1016,
+  "company": "DEXCOM INC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "357",
+  "avg_salary": "120857",
+  "source": {
+   "ats": "workday",
+   "tenant": "dexcom",
+   "wd": "wd1",
+   "site": "dexcom"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "NOVITIUM PHARMA LLC": {
+  "rank": 1038,
+  "company": "NOVITIUM PHARMA LLC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "351",
+  "avg_salary": "73996",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MARSHFIELD CLINIC": {
+  "rank": 1039,
+  "company": "MARSHFIELD CLINIC",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "350",
+  "avg_salary": "218700",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "NORTHWESTERN MEMORIAL HEALTHCARE": {
+  "rank": 1045,
+  "company": "NORTHWESTERN MEMORIAL HEALTHCARE",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "349",
+  "avg_salary": "97282",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "THE ROCKEFELLER UNIVERSITY": {
+  "rank": 1047,
+  "company": "THE ROCKEFELLER UNIVERSITY",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "349",
+  "avg_salary": "76517",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CHILDREN'S NATIONAL MEDICAL CENTER": {
+  "rank": 1056,
+  "company": "CHILDREN'S NATIONAL MEDICAL CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "346",
+  "avg_salary": "107938",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ALIGN TECHNOLOGY INC": {
+  "rank": 1067,
+  "company": "ALIGN TECHNOLOGY INC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "343",
+  "avg_salary": "148979",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "GE PRECISION HEALTHCARE LLC": {
+  "rank": 1086,
+  "company": "GE PRECISION HEALTHCARE LLC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "335",
+  "avg_salary": "134725",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "PHYSICIAN AFFILIATE GROUP OF NY PC": {
+  "rank": 1093,
+  "company": "PHYSICIAN AFFILIATE GROUP OF NY PC",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "333",
+  "avg_salary": "216336",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MASSACHUSETTS GENERAL PHYSICIANS ORGANIZATION": {
+  "rank": 1094,
+  "company": "MASSACHUSETTS GENERAL PHYSICIANS ORGANIZATION",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "332",
+  "avg_salary": "145837",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ALBERT EINSTEIN COLLEGE OF MEDICINE": {
+  "rank": 1096,
+  "company": "ALBERT EINSTEIN COLLEGE OF MEDICINE",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "331",
+  "avg_salary": "74367",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "GUARDANT HEALTH INC": {
+  "rank": 1106,
+  "company": "GUARDANT HEALTH INC",
+  "tier": 1,
+  "sector": "Life-sci tools & Diagnostics",
+  "h1b_filings": "328",
+  "avg_salary": "149100",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "PHILIPS NORTH AMERICA LLC": {
+  "rank": 1112,
+  "company": "PHILIPS NORTH AMERICA LLC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "327",
+  "avg_salary": "114344",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "HIGHMARK HEALTH": {
+  "rank": 1115,
+  "company": "HIGHMARK HEALTH",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "325",
+  "avg_salary": "115853",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "THE JACKSON LABORATORY": {
+  "rank": 1121,
+  "company": "THE JACKSON LABORATORY",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "324",
+  "avg_salary": "79060",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "KITE PHARMA INC": {
+  "rank": 1123,
+  "company": "KITE PHARMA INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "322",
+  "avg_salary": "124251",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UNITED HEALTHCARE SERVICES INC": {
+  "rank": 1177,
+  "company": "UNITED HEALTHCARE SERVICES INC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "306",
+  "avg_salary": "109391",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "H LEE MOFFITT CANCER CENTER & RESEARCH INSTITUTE INC": {
+  "rank": 1178,
+  "company": "H LEE MOFFITT CANCER CENTER & RESEARCH INSTITUTE INC",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "306",
+  "avg_salary": "83061",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ST BARNABAS HOSPITAL": {
+  "rank": 1190,
+  "company": "ST BARNABAS HOSPITAL",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "302",
+  "avg_salary": "97543",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UNIVERSITY OF CONNECTICUT HEALTH CENTER": {
+  "rank": 1193,
+  "company": "UNIVERSITY OF CONNECTICUT HEALTH CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "301",
+  "avg_salary": "111484",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ROCHESTER GENERAL HOSPITAL": {
+  "rank": 1198,
+  "company": "ROCHESTER GENERAL HOSPITAL",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "299",
+  "avg_salary": "122172",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "TEXAS TECH UNIVERSITY HEALTH SCIENCES CENTER": {
+  "rank": 1200,
+  "company": "TEXAS TECH UNIVERSITY HEALTH SCIENCES CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "299",
+  "avg_salary": "139539",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "BAYER RESEARCH AND DEVELOPMENT SERVICES LLC": {
+  "rank": 1208,
+  "company": "BAYER RESEARCH AND DEVELOPMENT SERVICES LLC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "298",
+  "avg_salary": "121445",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UNIVERSITY OF MASSACHUSETTS MEDICAL SCHOOL": {
+  "rank": 1216,
+  "company": "UNIVERSITY OF MASSACHUSETTS MEDICAL SCHOOL",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "296",
+  "avg_salary": "72983",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "GANDARA MENTAL HEALTH CENTER INC": {
+  "rank": 1218,
+  "company": "GANDARA MENTAL HEALTH CENTER INC",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "296",
+  "avg_salary": "51645",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "PHARMACEUTICAL RESEARCH ASSOCIATES INC": {
+  "rank": 1222,
+  "company": "PHARMACEUTICAL RESEARCH ASSOCIATES INC",
+  "tier": 1,
+  "sector": "CRO & Life-sci services",
+  "h1b_filings": "295",
+  "avg_salary": "111601",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "BOEHRINGER INGELHEIM PHARMACEUTICALS INC": {
+  "rank": 1227,
+  "company": "BOEHRINGER INGELHEIM PHARMACEUTICALS INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "294",
+  "avg_salary": "136580",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "EXPRESS SCRIPTS SERVICES CO": {
+  "rank": 1231,
+  "company": "EXPRESS SCRIPTS SERVICES CO",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "293",
+  "avg_salary": "117460",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "EASTERN MAINE MEDICAL CENTER": {
+  "rank": 1235,
+  "company": "EASTERN MAINE MEDICAL CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "292",
+  "avg_salary": "331172",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "INOVALON INC": {
+  "rank": 1246,
+  "company": "INOVALON INC",
+  "tier": 1,
+  "sector": "Health tech & Health IT",
+  "h1b_filings": "291",
+  "avg_salary": "117856",
+  "source": {
+   "ats": "greenhouse",
+   "slug": "inovalon",
+   "board_name": "Inovalon"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "MOLINA HEALTHCARE INC": {
+  "rank": 1258,
+  "company": "MOLINA HEALTHCARE INC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "289",
+  "avg_salary": "134745",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "GEISINGER CLINIC": {
+  "rank": 1268,
+  "company": "GEISINGER CLINIC",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "286",
+  "avg_salary": "259260",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "NATIONAL MEDICAL CARE INC A FRESENIUS MEDICAL CARE NA COMPANY": {
+  "rank": 1274,
+  "company": "NATIONAL MEDICAL CARE INC A FRESENIUS MEDICAL CARE NA COMPANY",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "286",
+  "avg_salary": "130984",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ST LUKE'S-ROOSEVELT HOSPITAL CENTER": {
+  "rank": 1275,
+  "company": "ST LUKE'S-ROOSEVELT HOSPITAL CENTER",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "285",
+  "avg_salary": "86778",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "LSU HEALTH SCIENCES CENTER": {
+  "rank": 1279,
+  "company": "LSU HEALTH SCIENCES CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "284",
+  "avg_salary": "211247",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "PENUMBRA INC": {
+  "rank": 1283,
+  "company": "PENUMBRA INC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "284",
+  "avg_salary": "110199",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "VALIDATION ASSOCIATES LLC": {
+  "rank": 1297,
+  "company": "VALIDATION ASSOCIATES LLC",
+  "tier": 1,
+  "sector": "CRO & Life-sci services",
+  "h1b_filings": "281",
+  "avg_salary": "81300",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "GE HEALTHCARE IITS USA CORP": {
+  "rank": 1300,
+  "company": "GE HEALTHCARE IITS USA CORP",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "281",
+  "avg_salary": "120966",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "PILLPACK LLC": {
+  "rank": 1302,
+  "company": "PILLPACK LLC",
+  "tier": 1,
+  "sector": "Pharmacy & Distribution",
+  "h1b_filings": "281",
+  "avg_salary": "119601",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CYTEL INC": {
+  "rank": 1307,
+  "company": "CYTEL INC",
+  "tier": 1,
+  "sector": "CRO & Life-sci services",
+  "h1b_filings": "279",
+  "avg_salary": "126826",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "DELTA DENTAL OF CALIFORNIA": {
+  "rank": 1328,
+  "company": "DELTA DENTAL OF CALIFORNIA",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "274",
+  "avg_salary": "140248",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "OSF MULTI-SPECIALTY GROUP": {
+  "rank": 1333,
+  "company": "OSF MULTI-SPECIALTY GROUP",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "273",
+  "avg_salary": "346220",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "VIZIENT INC": {
+  "rank": 1337,
+  "company": "VIZIENT INC",
+  "tier": 1,
+  "sector": "Health tech & Health IT",
+  "h1b_filings": "271",
+  "avg_salary": "119565",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MAIMONIDES MEDICAL CENTER": {
+  "rank": 1345,
+  "company": "MAIMONIDES MEDICAL CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "271",
+  "avg_salary": "114488",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "AURIS HEALTH INC": {
+  "rank": 1353,
+  "company": "AURIS HEALTH INC",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "269",
+  "avg_salary": "160722",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "SAAMA TECHNOLOGIES LLC": {
+  "rank": 1360,
+  "company": "SAAMA TECHNOLOGIES LLC",
+  "tier": 1,
+  "sector": "CRO & Life-sci services",
+  "h1b_filings": "268",
+  "avg_salary": "126903",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MERCK SHARP & DOHME CORP": {
+  "rank": 1377,
+  "company": "MERCK SHARP & DOHME CORP",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "266",
+  "avg_salary": "97645",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "THE SALK INSTITUTE FOR BIOLOGICAL STUDIES": {
+  "rank": 1382,
+  "company": "THE SALK INSTITUTE FOR BIOLOGICAL STUDIES",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "265",
+  "avg_salary": "72124",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "FRED HUTCHINSON CANCER RESEARCH CENTER": {
+  "rank": 1391,
+  "company": "FRED HUTCHINSON CANCER RESEARCH CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "264",
+  "avg_salary": "89660",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "JANSSEN RESEARCH & DEVELOPMENT LLC": {
+  "rank": 1399,
+  "company": "JANSSEN RESEARCH & DEVELOPMENT LLC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "263",
+  "avg_salary": "142232",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "TAKEDA PHARMACEUTICALS USA INC": {
+  "rank": 1400,
+  "company": "TAKEDA PHARMACEUTICALS USA INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "263",
+  "avg_salary": "163958",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
+  "careers_url": "https://takeda.wd3.myworkdayjobs.com/External"
+ },
+ "CITY OF HOPE NATIONAL MEDICAL CENTER": {
+  "rank": 1422,
+  "company": "CITY OF HOPE NATIONAL MEDICAL CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "260",
+  "avg_salary": "112399",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "10X GENOMICS INC": {
+  "rank": 1423,
+  "company": "10X GENOMICS INC",
+  "tier": 1,
+  "sector": "Life-sci tools & Diagnostics",
+  "h1b_filings": "260",
+  "avg_salary": "147534",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "BIO-RAD LABORATORIES INC": {
+  "rank": 1432,
+  "company": "BIO-RAD LABORATORIES INC",
+  "tier": 1,
+  "sector": "Life-sci tools & Diagnostics",
+  "h1b_filings": "259",
+  "avg_salary": "130959",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MEDLINE INDUSTRIES INC": {
+  "rank": 1447,
+  "company": "MEDLINE INDUSTRIES INC",
+  "tier": 1,
+  "sector": "Pharmacy & Distribution",
+  "h1b_filings": "256",
+  "avg_salary": "109140",
+  "source": {
+   "ats": "workday",
+   "tenant": "medline",
+   "wd": "wd5",
+   "site": "medline"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "BRONXCARE HEALTH SYSTEM": {
+  "rank": 1460,
+  "company": "BRONXCARE HEALTH SYSTEM",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "254",
+  "avg_salary": "116427",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CSL BEHRING LLC": {
+  "rank": 1478,
+  "company": "CSL BEHRING LLC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "251",
+  "avg_salary": "129568",
+  "source": {
+   "ats": "workday",
+   "tenant": "csl",
+   "wd": "wd1",
+   "site": "CSL_External"
+  },
+  "status": "from your list",
+  "careers_url": "https://csl.wd1.myworkdayjobs.com/CSL_External"
+ },
+ "OCHSNER CLINIC FOUNDATION": {
+  "rank": 1505,
+  "company": "OCHSNER CLINIC FOUNDATION",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "249",
+  "avg_salary": "194053",
+  "source": {
+   "ats": "workday",
+   "tenant": "ochsner",
+   "wd": "wd1",
+   "site": "ochsner"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "EMD MILLIPORE CORPORATION": {
+  "rank": 1521,
+  "company": "EMD MILLIPORE CORPORATION",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "246",
+  "avg_salary": "118338",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "PRESBYTERIAN HEALTHCARE SERVICES": {
+  "rank": 1539,
+  "company": "PRESBYTERIAN HEALTHCARE SERVICES",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "244",
+  "avg_salary": "242561",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "OSF HEALTHCARE SYSTEM": {
+  "rank": 1548,
+  "company": "OSF HEALTHCARE SYSTEM",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "242",
+  "avg_salary": "79197",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "TRINITY PARTNERS LLC": {
+  "rank": 1553,
+  "company": "TRINITY PARTNERS LLC",
+  "tier": 1,
+  "sector": "Healthcare & life-sci consulting",
+  "h1b_filings": "242",
+  "avg_salary": "124485",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "COLD SPRING HARBOR LABORATORY": {
+  "rank": 1555,
+  "company": "COLD SPRING HARBOR LABORATORY",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "241",
+  "avg_salary": "72261",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MULTIPLAN INC": {
+  "rank": 1561,
+  "company": "MULTIPLAN INC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "241",
+  "avg_salary": "124767",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CIGNA HEALTH & LIFE INSURANCE COMPANY": {
+  "rank": 1567,
+  "company": "CIGNA HEALTH & LIFE INSURANCE COMPANY",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "240",
+  "avg_salary": "123739",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "NEW YORK CITY HEALTH AND HOSPITALS CORPORATION": {
+  "rank": 1583,
+  "company": "NEW YORK CITY HEALTH AND HOSPITALS CORPORATION",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "238",
+  "avg_salary": "95433",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CHARLES RIVER LABORATORIES INC": {
+  "rank": 1585,
+  "company": "CHARLES RIVER LABORATORIES INC",
+  "tier": 1,
+  "sector": "CRO & Life-sci services",
+  "h1b_filings": "238",
+  "avg_salary": "124591",
+  "source": {
+   "ats": "greenhouse",
+   "slug": "charles",
+   "board_name": "charles"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "THE UNIVERSITY OF KANSAS MEDICAL CENTER": {
+  "rank": 1588,
+  "company": "THE UNIVERSITY OF KANSAS MEDICAL CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "238",
+  "avg_salary": "118931",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ALEXION PHARMACEUTICALS INC": {
+  "rank": 1597,
+  "company": "ALEXION PHARMACEUTICALS INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "237",
+  "avg_salary": "136524",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "WALGREEN CO": {
+  "rank": 1599,
+  "company": "WALGREEN CO",
+  "tier": 1,
+  "sector": "Pharmacy & Distribution",
+  "h1b_filings": "236",
+  "avg_salary": "147319",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MEDSTAR MEDICAL GROUP II LLC": {
+  "rank": 1616,
+  "company": "MEDSTAR MEDICAL GROUP II LLC",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "235",
+  "avg_salary": "267135",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "EVICORE HEALTHCARE MSI LLC": {
+  "rank": 1619,
+  "company": "EVICORE HEALTHCARE MSI LLC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "234",
+  "avg_salary": "107278",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "GUIDEHOUSE INC": {
+  "rank": 1620,
+  "company": "GUIDEHOUSE INC",
+  "tier": 1,
+  "sector": "Healthcare & life-sci consulting",
+  "h1b_filings": "234",
+  "avg_salary": "126605",
+  "source": {
+   "ats": "workday",
+   "tenant": "guidehouse",
+   "wd": "wd1",
+   "site": "External"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "BAPTIST HEALTH SOUTH FLORIDA INC": {
+  "rank": 1639,
+  "company": "BAPTIST HEALTH SOUTH FLORIDA INC",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "232",
+  "avg_salary": "129506",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "HARTFORD HEALTHCARE MEDICAL GROUP INC": {
+  "rank": 1641,
+  "company": "HARTFORD HEALTHCARE MEDICAL GROUP INC",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "232",
+  "avg_salary": "289751",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "HURON CONSULTING SERVICES LLC": {
+  "rank": 1656,
+  "company": "HURON CONSULTING SERVICES LLC",
+  "tier": 1,
+  "sector": "Healthcare & life-sci consulting",
+  "h1b_filings": "229",
+  "avg_salary": "142079",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "TEMPUS LABS INC": {
+  "rank": 1666,
+  "company": "TEMPUS LABS INC",
+  "tier": 1,
+  "sector": "Life-sci tools & Diagnostics",
+  "h1b_filings": "228",
+  "avg_salary": "116237",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "EHEALTHINSURANCE SERVICES INC": {
+  "rank": 1667,
+  "company": "EHEALTHINSURANCE SERVICES INC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "228",
+  "avg_salary": "134938",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "BANNER UNIVERSITY MEDICAL GROUP": {
+  "rank": 1670,
+  "company": "BANNER UNIVERSITY MEDICAL GROUP",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "228",
+  "avg_salary": "246170",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "INSULET CORPORATION": {
+  "rank": 1672,
+  "company": "INSULET CORPORATION",
+  "tier": 1,
+  "sector": "MedTech & Devices",
+  "h1b_filings": "227",
+  "avg_salary": "120931",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "FOUNDATION MEDICINE INC": {
+  "rank": 1673,
+  "company": "FOUNDATION MEDICINE INC",
+  "tier": 1,
+  "sector": "Life-sci tools & Diagnostics",
+  "h1b_filings": "227",
+  "avg_salary": "115083",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CARESOURCE MANAGEMENT SERVICES LLC": {
+  "rank": 1679,
+  "company": "CARESOURCE MANAGEMENT SERVICES LLC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "226",
+  "avg_salary": "113544",
+  "source": {
+   "ats": "workday",
+   "tenant": "caresource",
+   "wd": "wd1",
+   "site": "caresource"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "SYNEOS HEALTH LLC": {
+  "rank": 1682,
+  "company": "SYNEOS HEALTH LLC",
+  "tier": 1,
+  "sector": "CRO & Life-sci services",
+  "h1b_filings": "226",
+  "avg_salary": "108968",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "CEREBRAL TECHNOLOGIES INC": {
+  "rank": 1693,
+  "company": "CEREBRAL TECHNOLOGIES INC",
+  "tier": 1,
+  "sector": "Health tech & Health IT",
+  "h1b_filings": "224",
+  "avg_salary": "98906",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "BLUE CROSS AND BLUE SHIELD OF FLORIDA INC": {
+  "rank": 1704,
+  "company": "BLUE CROSS AND BLUE SHIELD OF FLORIDA INC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "223",
+  "avg_salary": "128082",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "SANFORD CLINIC": {
+  "rank": 1721,
+  "company": "SANFORD CLINIC",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "221",
+  "avg_salary": "210860",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "INCYTE CORPORATION": {
+  "rank": 1725,
+  "company": "INCYTE CORPORATION",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "221",
+  "avg_salary": "135649",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "PEACEHEALTH": {
+  "rank": 1791,
+  "company": "PEACEHEALTH",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "213",
+  "avg_salary": "242556",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "VCU HEALTH SYSTEM AUTHORITY": {
+  "rank": 1799,
+  "company": "VCU HEALTH SYSTEM AUTHORITY",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "212",
+  "avg_salary": "209791",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "LSU HEALTH SCIENCES CENTER - SHREVEPORT": {
+  "rank": 1801,
+  "company": "LSU HEALTH SCIENCES CENTER - SHREVEPORT",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "212",
+  "avg_salary": "219311",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ROCHE MOLECULAR SYSTEMS INC": {
+  "rank": 1807,
+  "company": "ROCHE MOLECULAR SYSTEMS INC",
+  "tier": 1,
+  "sector": "Life-sci tools & Diagnostics",
+  "h1b_filings": "212",
+  "avg_salary": "143291",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "BETH ISRAEL DEACONESS MEDICAL CENTER": {
+  "rank": 1810,
+  "company": "BETH ISRAEL DEACONESS MEDICAL CENTER",
+  "tier": 1,
+  "sector": "Academic medicine & Research",
+  "h1b_filings": "212",
+  "avg_salary": "64911",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "FRONTAGE LABORATORIES INC": {
+  "rank": 1811,
+  "company": "FRONTAGE LABORATORIES INC",
+  "tier": 1,
+  "sector": "CRO & Life-sci services",
+  "h1b_filings": "212",
+  "avg_salary": "78979",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "BLUECROSS BLUESHIELD OF TENNESSEE INC": {
+  "rank": 1820,
+  "company": "BLUECROSS BLUESHIELD OF TENNESSEE INC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "211",
+  "avg_salary": "92637",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "HEALTHEDGE SOFTWARE INC": {
+  "rank": 1828,
+  "company": "HEALTHEDGE SOFTWARE INC",
+  "tier": 1,
+  "sector": "Health tech & Health IT",
+  "h1b_filings": "210",
+  "avg_salary": "126790",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "PAREXEL INTERNATIONAL LLC": {
+  "rank": 1832,
+  "company": "PAREXEL INTERNATIONAL LLC",
+  "tier": 1,
+  "sector": "CRO & Life-sci services",
+  "h1b_filings": "210",
+  "avg_salary": "136675",
+  "source": {
+   "ats": "smartrecruiters",
+   "slug": "parexelinternational"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "THE CHILDREN'S MERCY HOSPITAL": {
+  "rank": 1860,
+  "company": "THE CHILDREN'S MERCY HOSPITAL",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "207",
+  "avg_salary": "150045",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "INTERSYSTEMS CORPORATION": {
+  "rank": 1868,
+  "company": "INTERSYSTEMS CORPORATION",
+  "tier": 1,
+  "sector": "Health tech & Health IT",
+  "h1b_filings": "206",
+  "avg_salary": "115992",
+  "source": {
+   "ats": "greenhouse",
+   "slug": "intersystems",
+   "board_name": "InterSystems"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "AMNEAL PHARMACEUTICALS LLC": {
+  "rank": 1873,
+  "company": "AMNEAL PHARMACEUTICALS LLC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "205",
+  "avg_salary": "112477",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "SEATTLE CHILDREN'S HOSPITAL": {
+  "rank": 1888,
+  "company": "SEATTLE CHILDREN'S HOSPITAL",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "204",
+  "avg_salary": "87193",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "ABBVIE US LLC": {
+  "rank": 1905,
+  "company": "ABBVIE US LLC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "202",
+  "avg_salary": "141746",
+  "source": {
+   "ats": "smartrecruiters",
+   "slug": "abbvie"
+  },
+  "status": "found automatically",
+  "careers_url": ""
+ },
+ "ALLEGHENY CLINIC": {
+  "rank": 1907,
+  "company": "ALLEGHENY CLINIC",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "202",
+  "avg_salary": "322278",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "FAMILY HEALTHCARE NETWORK": {
+  "rank": 1921,
+  "company": "FAMILY HEALTHCARE NETWORK",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "200",
+  "avg_salary": "229917",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "DELTA DENTAL INSURANCE COMPANY": {
+  "rank": 1929,
+  "company": "DELTA DENTAL INSURANCE COMPANY",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "200",
+  "avg_salary": "129340",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "UHCP D/B/A UPMC MEDICAL EDUCATION": {
+  "rank": 1948,
+  "company": "UHCP D/B/A UPMC MEDICAL EDUCATION",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "198",
+  "avg_salary": "63826",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "SEAGEN INC": {
+  "rank": 1964,
+  "company": "SEAGEN INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "197",
+  "avg_salary": "122040",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "MODERNA SERVICES INC": {
+  "rank": 1967,
+  "company": "MODERNA SERVICES INC",
+  "tier": 1,
+  "sector": "Pharma & Biotech",
+  "h1b_filings": "197",
+  "avg_salary": "154371",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "GROUP HEALTH PLAN INC": {
+  "rank": 1973,
+  "company": "GROUP HEALTH PLAN INC",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "197",
+  "avg_salary": "112870",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "THE MARY IMOGENE BASSETT HOSPITAL": {
+  "rank": 1990,
+  "company": "THE MARY IMOGENE BASSETT HOSPITAL",
+  "tier": 1,
+  "sector": "Hospitals & Health systems",
+  "h1b_filings": "195",
+  "avg_salary": "187133",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ },
+ "PHYSICIANS MUTUAL INSURANCE COMPANY": {
+  "rank": 1996,
+  "company": "PHYSICIANS MUTUAL INSURANCE COMPANY",
+  "tier": 1,
+  "sector": "Payers & Pharmacy benefits",
+  "h1b_filings": "195",
+  "avg_salary": "114758",
+  "source": null,
+  "status": "not found",
+  "careers_url": ""
+ }
+}
