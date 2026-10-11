@@ -5750,12 +5750,8 @@
   "sector": "Other",
   "h1b_filings": "653",
   "avg_salary": "161473",
-  "source": {
-   "ats": "greenhouse",
-   "slug": "hubspot",
-   "board_name": "HubSpot Product"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "DELTA AIR LINES INC": {
