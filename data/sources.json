@@ -5457,11 +5457,8 @@
   "sector": "Other",
   "h1b_filings": "693",
   "avg_salary": "182090",
-  "source": {
-   "ats": "ashby",
-   "slug": "confluent"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "AMERICAN EXPRESS COMPANY": {
