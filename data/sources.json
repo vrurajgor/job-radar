@@ -9832,8 +9832,12 @@
   "sector": "Other",
   "h1b_filings": "410",
   "avg_salary": "143338",
-  "source": null,
-  "status": "not found",
+  "source": {
+   "ats": "greenhouse",
+   "slug": "cirruslogic",
+   "board_name": "Cirrus Logic"
+  },
+  "status": "found automatically",
   "careers_url": ""
  },
  "MEDIDATA SOLUTIONS INC": {
@@ -18500,7 +18504,7 @@
   "h1b_filings": "229",
   "avg_salary": "146665",
   "source": {
-   "ats": "lever",
+   "ats": "ashby",
    "slug": "sophos"
   },
   "status": "found automatically",
