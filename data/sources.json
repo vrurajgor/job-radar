@@ -4872,11 +4872,8 @@
   "sector": "Other",
   "h1b_filings": "757",
   "avg_salary": "118092",
-  "source": {
-   "ats": "lever",
-   "slug": "metlife"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "WSP USA INC": {
