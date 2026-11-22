@@ -1323,13 +1323,8 @@
   "sector": "Payers & Pharmacy benefits",
   "h1b_filings": "2093",
   "avg_salary": "127000",
-  "source": {
-   "ats": "workday",
-   "tenant": "elevancehealth",
-   "wd": "wd1",
-   "site": "ANT"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT"
  },
  "UNIVERSITY OF WISCONSIN SYSTEM": {
@@ -1716,13 +1711,8 @@
   "sector": "Academic medicine & Research",
   "h1b_filings": "1730",
   "avg_salary": "80092",
-  "source": {
-   "ats": "workday",
-   "tenant": "stjude",
-   "wd": "wd1",
-   "site": "stjude"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "RANDSTAD DIGITAL LLC": {
@@ -1806,13 +1796,8 @@
   "sector": "Pharma & Biotech",
   "h1b_filings": "1691",
   "avg_salary": "129195",
-  "source": {
-   "ats": "workday",
-   "tenant": "amgen",
-   "wd": "wd1",
-   "site": "Careers"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://amgen.wd1.myworkdayjobs.com/Careers"
  },
  "OATH HOLDINGS INC": {
@@ -2242,13 +2227,8 @@
   "sector": "MedTech & Devices",
   "h1b_filings": "1468",
   "avg_salary": "107454",
-  "source": {
-   "ats": "workday",
-   "tenant": "medtronic",
-   "wd": "wd1",
-   "site": "MedtronicCareers"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers"
  },
  "FEDEX CORPORATE SERVICES INC": {
@@ -2405,13 +2385,8 @@
   "sector": "Pharma & Biotech",
   "h1b_filings": "1416",
   "avg_salary": "134368",
-  "source": {
-   "ats": "workday",
-   "tenant": "gilead",
-   "wd": "wd1",
-   "site": "gileadcareers"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers"
  },
  "PROKARMA INC": {
@@ -2432,13 +2407,8 @@
   "sector": "Payers & Pharmacy benefits",
   "h1b_filings": "1409",
   "avg_salary": "131786",
-  "source": {
-   "ats": "workday",
-   "tenant": "humana",
-   "wd": "wd5",
-   "site": "Humana_External_Career_Site"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://humana.wd5.myworkdayjobs.com/Humana_External_Career_Site"
  },
  "THE UNIVERSITY OF TEXAS AT AUSTIN": {
@@ -2532,13 +2502,8 @@
   "sector": "Pharmacy & Distribution",
   "h1b_filings": "1366",
   "avg_salary": "138915",
-  "source": {
-   "ats": "workday",
-   "tenant": "cvshealth",
-   "wd": "wd1",
-   "site": "CVS_Health_Careers"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://cvshealth.wd1.myworkdayjobs.com/CVS_Health_Careers"
  },
  "THE PENNSYLVANIA STATE UNIVERSITY": {
@@ -2584,13 +2549,8 @@
   "sector": "Pharma & Biotech",
   "h1b_filings": "1343",
   "avg_salary": "146543",
-  "source": {
-   "ats": "workday",
-   "tenant": "bristolmyerssquibb",
-   "wd": "wd5",
-   "site": "BMS"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://bristolmyerssquibb.wd5.myworkdayjobs.com/BMS"
  },
  "KLA CORPORATION": {
@@ -3205,13 +3165,8 @@
   "sector": "Payers & Pharmacy benefits",
   "h1b_filings": "1099",
   "avg_salary": "139411",
-  "source": {
-   "ats": "workday",
-   "tenant": "cigna",
-   "wd": "wd5",
-   "site": "cignacareers"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://cigna.wd5.myworkdayjobs.com/cignacareers"
  },
  "SPOTIFY USA INC": {
@@ -3665,13 +3620,8 @@
   "sector": "Pharma & Biotech",
   "h1b_filings": "975",
   "avg_salary": "122934",
-  "source": {
-   "ats": "workday",
-   "tenant": "amgen",
-   "wd": "wd1",
-   "site": "Careers"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "COX AUTOMOTIVE CORPORATE SERVICES LLC": {
@@ -3692,13 +3642,8 @@
   "sector": "Life-sci tools & Diagnostics",
   "h1b_filings": "972",
   "avg_salary": "121707",
-  "source": {
-   "ats": "workday",
-   "tenant": "illumina",
-   "wd": "wd1",
-   "site": "illumina-careers"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://illumina.wd1.myworkdayjobs.com/illumina-careers"
  },
  "TECHNOSOFT CORPORATION": {
@@ -4256,13 +4201,8 @@
   "sector": "Pharma & Biotech",
   "h1b_filings": "866",
   "avg_salary": "150046",
-  "source": {
-   "ats": "workday",
-   "tenant": "astrazeneca",
-   "wd": "wd3",
-   "site": "Careers"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://astrazeneca.wd3.myworkdayjobs.com/Careers"
  },
  "MEDLINE INDUSTRIES LP": {
@@ -4272,13 +4212,8 @@
   "sector": "Pharmacy & Distribution",
   "h1b_filings": "863",
   "avg_salary": "128553",
-  "source": {
-   "ats": "workday",
-   "tenant": "medline",
-   "wd": "wd5",
-   "site": "medline"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "SAP LABS LLC": {
@@ -4365,13 +4300,8 @@
   "sector": "Pharma & Biotech",
   "h1b_filings": "851",
   "avg_salary": "121109",
-  "source": {
-   "ats": "workday",
-   "tenant": "vrtx",
-   "wd": "wd501",
-   "site": "vertex_careers"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://vrtx.wd501.myworkdayjobs.com/vertex_careers"
  },
  "TRIAD NATIONAL SECURITY LLC": {
@@ -4543,13 +4473,8 @@
   "sector": "Pharmacy & Distribution",
   "h1b_filings": "813",
   "avg_salary": "135612",
-  "source": {
-   "ats": "workday",
-   "tenant": "mckesson",
-   "wd": "wd3",
-   "site": "External_Careers"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "HEALTH CARE SERVICE CORPORATION": {
@@ -4964,13 +4889,8 @@
   "sector": "Pharmacy & Distribution",
   "h1b_filings": "744",
   "avg_salary": "107908",
-  "source": {
-   "ats": "workday",
-   "tenant": "cardinalhealth",
-   "wd": "wd1",
-   "site": "EXT"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://cardinalhealth.wd1.myworkdayjobs.com/EXT"
  },
  "TIGER ANALYTICS INC": {
@@ -5115,13 +5035,8 @@
   "sector": "MedTech & Devices",
   "h1b_filings": "725",
   "avg_salary": "123311",
-  "source": {
-   "ats": "workday",
-   "tenant": "bdx",
-   "wd": "wd1",
-   "site": "EXTERNAL_CAREER_SITE_USA"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://bdx.wd1.myworkdayjobs.com/EXTERNAL_CAREER_SITE_USA"
  },
  "TECHNUMEN INC": {
@@ -6130,13 +6045,8 @@
   "sector": "Pharma & Biotech",
   "h1b_filings": "617",
   "avg_salary": "119978",
-  "source": {
-   "ats": "workday",
-   "tenant": "biibhr",
-   "wd": "wd3",
-   "site": "external"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://biibhr.wd3.myworkdayjobs.com/external"
  },
  "DATA SCIENCE TECHNOLOGIES LLC": {
@@ -6308,13 +6218,8 @@
   "sector": "Pharma & Biotech",
   "h1b_filings": "603",
   "avg_salary": "129938",
-  "source": {
-   "ats": "workday",
-   "tenant": "novartis",
-   "wd": "wd3",
-   "site": "Novartis_Careers"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
  },
  "NCR CORPORATION": {
@@ -6846,13 +6751,8 @@
   "sector": "CRO & Life-sci services",
   "h1b_filings": "567",
   "avg_salary": "125844",
-  "source": {
-   "ats": "workday",
-   "tenant": "iqvia",
-   "wd": "wd1",
-   "site": "iqvia"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "FEDERAL HOME LOAN MORTGAGE CORPORATION": {
@@ -7442,13 +7342,8 @@
   "sector": "Pharma & Biotech",
   "h1b_filings": "522",
   "avg_salary": "124772",
-  "source": {
-   "ats": "workday",
-   "tenant": "modernatx",
-   "wd": "wd1",
-   "site": "M_tx"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://modernatx.wd1.myworkdayjobs.com/M_tx"
  },
  "CIRQUETECH GROUP INC": {
@@ -8075,13 +7970,8 @@
   "sector": "Pharma & Biotech",
   "h1b_filings": "492",
   "avg_salary": "122935",
-  "source": {
-   "ats": "workday",
-   "tenant": "msd",
-   "wd": "wd5",
-   "site": "SearchJobs"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://msd.wd5.myworkdayjobs.com/SearchJobs"
  },
  "NK TECHNOLABS LLC": {
@@ -9378,13 +9268,8 @@
   "sector": "Hospitals & Health systems",
   "h1b_filings": "426",
   "avg_salary": "80118",
-  "source": {
-   "ats": "workday",
-   "tenant": "massgeneralbrigham",
-   "wd": "wd1",
-   "site": "MGBExternal"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://massgeneralbrigham.wd1.myworkdayjobs.com/MGBExternal"
  },
  "BALYASNY ASSET MANAGEMENT LP": {
@@ -9482,13 +9367,8 @@
   "sector": "Pharma & Biotech",
   "h1b_filings": "422",
   "avg_salary": "104652",
-  "source": {
-   "ats": "workday",
-   "tenant": "pfizer",
-   "wd": "wd1",
-   "site": "PfizerCareers"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
  },
  "I3 INFOTEK INC": {
@@ -9892,13 +9772,8 @@
   "sector": "MedTech & Devices",
   "h1b_filings": "408",
   "avg_salary": "118824",
-  "source": {
-   "ats": "workday",
-   "tenant": "stjude",
-   "wd": "wd1",
-   "site": "stjude"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "AUTOZONE INC": {
@@ -10065,13 +9940,8 @@
   "sector": "MedTech & Devices",
   "h1b_filings": "399",
   "avg_salary": "113319",
-  "source": {
-   "ats": "workday",
-   "tenant": "smithnephew",
-   "wd": "wd5",
-   "site": "External"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "CVS SHARED SERVICES RESOURCES LLC": {
@@ -10469,13 +10339,8 @@
   "sector": "MedTech & Devices",
   "h1b_filings": "388",
   "avg_salary": "130492",
-  "source": {
-   "ats": "workday",
-   "tenant": "edwards",
-   "wd": "wd5",
-   "site": "EdwardsCareers"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://edwards.wd5.myworkdayjobs.com/EdwardsCareers"
  },
  "CYPRESS SEMICONDUCTOR CORPORATION": {
@@ -10769,13 +10634,8 @@
   "sector": "Pharma & Biotech",
   "h1b_filings": "377",
   "avg_salary": "121620",
-  "source": {
-   "ats": "workday",
-   "tenant": "gsk",
-   "wd": "wd5",
-   "site": "GSKCareers"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://gsk.wd5.myworkdayjobs.com/GSKCareers"
  },
  "RICHLAND COUNTY SCHOOL DISTRICT ONE": {
@@ -11313,13 +11173,8 @@
   "sector": "MedTech & Devices",
   "h1b_filings": "357",
   "avg_salary": "120857",
-  "source": {
-   "ats": "workday",
-   "tenant": "dexcom",
-   "wd": "wd1",
-   "site": "dexcom"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "MARVELOUS TECHNOLOGIES INC": {
@@ -16130,13 +15985,8 @@
   "sector": "Pharmacy & Distribution",
   "h1b_filings": "256",
   "avg_salary": "109140",
-  "source": {
-   "ats": "workday",
-   "tenant": "medline",
-   "wd": "wd5",
-   "site": "medline"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "JOBY AERO INC": {
@@ -16465,13 +16315,8 @@
   "sector": "Pharma & Biotech",
   "h1b_filings": "251",
   "avg_salary": "129568",
-  "source": {
-   "ats": "workday",
-   "tenant": "csl",
-   "wd": "wd1",
-   "site": "CSL_External"
-  },
-  "status": "from your list",
+  "source": null,
+  "status": "your URL didn't respond - check it in sources_manual.csv",
   "careers_url": "https://csl.wd1.myworkdayjobs.com/CSL_External"
  },
  "EXCELON SOLUTIONS LLC": {
@@ -16775,13 +16620,8 @@
   "sector": "Hospitals & Health systems",
   "h1b_filings": "249",
   "avg_salary": "194053",
-  "source": {
-   "ats": "workday",
-   "tenant": "ochsner",
-   "wd": "wd1",
-   "site": "ochsner"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "AMERICLOUD SOLUTIONS INC": {
@@ -17990,13 +17830,8 @@
   "sector": "Healthcare & life-sci consulting",
   "h1b_filings": "234",
   "avg_salary": "126605",
-  "source": {
-   "ats": "workday",
-   "tenant": "guidehouse",
-   "wd": "wd1",
-   "site": "External"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "APPLICATIONS SOFTWARE TECHNOLOGY LLC": {
@@ -18668,13 +18503,8 @@
   "sector": "Payers & Pharmacy benefits",
   "h1b_filings": "226",
   "avg_salary": "113544",
-  "source": {
-   "ats": "workday",
-   "tenant": "caresource",
-   "wd": "wd1",
-   "site": "caresource"
-  },
-  "status": "found automatically",
+  "source": null,
+  "status": "not found",
   "careers_url": ""
  },
  "SANDISK TECHNOLOGIES INC": {
